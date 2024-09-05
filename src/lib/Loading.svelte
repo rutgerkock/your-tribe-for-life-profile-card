@@ -3,7 +3,6 @@
   
     let isVisible = true;
   
-    // Hide the loading text after 2 seconds
     onMount(() => {
       setTimeout(() => {
         isVisible = false;
