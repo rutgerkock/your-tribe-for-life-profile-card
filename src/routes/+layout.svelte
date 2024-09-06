@@ -36,8 +36,6 @@
     justify-content: center;
     background: #282c34;
     color: #fff;
-    font-size: 1rem;
-    font-family: JetBrains Mono, monospace;
     width: 100vw;
     height: 100vh;
     z-index: 999;

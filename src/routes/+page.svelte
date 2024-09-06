@@ -1,2 +1,20 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<nav>
+    <h1>Rutger Kock</h1>
+    <h1>FDND</h1>
+</nav>
+<body>
+    <a href="https://github.com/rutgerkock" target="_blank">github @rutgerkock</a>
+</body>
+
+<style>
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    body {
+        padding: 1rem;
+    }
+
+</style>
