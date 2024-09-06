@@ -3,7 +3,6 @@
   
     let isVisible = true;
   
-    // Hide the loading text after 2 seconds
     onMount(() => {
       setTimeout(() => {
         isVisible = false;
@@ -12,44 +11,62 @@
   </script>
   
   {#if isVisible}
-    <div class="loading-screen">
-      <h1 class="loading-text">SQUADS</h1>
+  <div class="loading-screen">
+    <div class="loading-bar">
+      {#each Array(10) as _, index}
+        <div class="block" style="animation-delay: {index * 0.1}s"></div>
+      {/each}
     </div>
-  {/if}
-  
-  <style>
-    .loading-screen {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: #fff;
-      z-index: 1000;
-      overflow: hidden;
+  </div>
+{/if}
+
+<style>
+  .loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    z-index: 1000;
+    overflow: hidden;
+  }
+
+  .loading-bar {
+    display: flex;
+    gap: 5px;
+  }
+
+  .block {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    animation: block 1.2s infinite;
+    opacity: 0.5;
+  }
+
+  @keyframes block {
+    0% {
+      opacity: 0.5;
     }
-  
-    .loading-text {
-      font-size: 20rem;
-      font-weight: bold;
-      font-family: 'Poppins', sans-serif;
-      display: inline-block;
-      animation: slide-up 2s ease-in-out forwards;
+    50% {
+      opacity: 1;
     }
-  
-    @keyframes slide-up {
-      0% {
-        opacity: 0;
-        transform: translateY(80vh) scaleY(2); 
-      }
-      10% {
-        opacity: 1;
-      }
-      100% {
-        transform: translateY(-100vh) scaleY(2);
-      }
+    100% {
+      opacity: 0.5;
     }
-  </style>
+  }
+
+  @keyframes text-blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+</style>
