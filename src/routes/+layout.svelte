@@ -40,7 +40,6 @@
     width: 100vw;
     height: 100vh;
     z-index: 999;
-    font-family: JetBrains Mono, monospace;
 }
 
   .loader .loading {color: #e4bb68;}
