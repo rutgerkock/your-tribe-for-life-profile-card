@@ -7,8 +7,10 @@
     setTimeout(() => {
       isLoaded = true;      
     }, 2000);
+    
   });
 </script>
+
 {#if !isLoaded}
   <div class="loader">
     <span class="loading">loading</span>
@@ -39,10 +41,10 @@
     width: 100vw;
     height: 100vh;
     z-index: 999;
-  }
+}
 
   .loader .loading {color: #e4bb68;}
-  .loader .portfolio {color: #e06c75;}
+  .loader .portfolio {color: #ff7883;}
   .loader .name {color: #61afef;}
 
 
@@ -62,15 +64,33 @@
     animation-delay: 0.6s;
   }
 
+
+  /* animations -------------------------------------------------------*/
   @keyframes blink {
     0%, 20% {
       transform: translateY(0);
     }
     50% {
+
       transform: translateY(-10px);
     }
     100% {
       transform: translateY(0);
     }
   }
+
+
+
+
+  /* dark mode -------------------------------------------------------*/
+  @media (prefers-color-scheme: light) {
+  .loader {
+    color: #000;
+    background-color: #d7d3cb;
+  }
+  .loader .loading {color: #674606;}
+  .loader .portfolio {color: #B40B1B;}
+  .loader .name {color: #385772;}
+}
+  
 </style>
