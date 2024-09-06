@@ -4,10 +4,7 @@
   let isLoaded = false;
 
   onMount(() => {
-    setTimeout(() => {
       isLoaded = true;      
-    }, 2000);
-    
   });
 </script>
 
@@ -36,7 +33,7 @@
     justify-content: center;
     background: #282c34;
     color: #fff;
-    font-size: 2vmin;
+    font-size: 1rem;
     font-family: JetBrains Mono, monospace;
     width: 100vw;
     height: 100vh;
@@ -82,7 +79,7 @@
 
 
 
-  /* dark mode -------------------------------------------------------*/
+  /* @media -------------------------------------------------------*/
   @media (prefers-color-scheme: light) {
   .loader {
     color: #000;
