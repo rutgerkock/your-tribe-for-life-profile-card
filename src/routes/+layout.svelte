@@ -23,6 +23,7 @@
     <span class="dot dot2">.</span>
     <span class="dot dot3">.</span>
   </div>
+
 {/if}
 <slot />
 
