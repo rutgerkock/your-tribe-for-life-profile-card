@@ -87,6 +87,7 @@
     color: #000;
     background-color: #d7d3cb;
   }
+  
   .loader .loading {color: #674606;}
   .loader .portfolio {color: #B40B1B;}
   .loader .name {color: #385772;}
