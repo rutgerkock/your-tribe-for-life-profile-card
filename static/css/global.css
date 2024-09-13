@@ -15,7 +15,7 @@
 }
 
 html {
-    background: var(--background-color);
+    background-color: var(--background-color);
     color: var(--text-color);
     font-family: jetbrains mono, monospace;
     font-size: 1rem;
@@ -25,6 +25,18 @@ html {
 a {
     color: var(--href-color);
 }
+
+#fdnd {
+    display: fixed;
+    right: 0;
+    top: 0;
+    position: fixed;
+    background-color: var(--background-color);
+    padding: 1rem 4rem;
+    z-index: 999;
+}
+
+
 @media (prefers-color-scheme: light) {
     :root {
         --background-color: #d7d3cb;
