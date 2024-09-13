@@ -4,11 +4,9 @@
   let isLoaded = false;
 
   onMount(() => {
-    setTimeout(() => {
-      isLoaded = true;      
-    }, 2000);
-    
+      isLoaded = true;    
   });
+
 </script>
 
 {#if !isLoaded}
@@ -35,16 +33,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #282c34;
-    color: #fff;
+    background-color: var(--background-color);
+    color: var(--text-color);
     width: 100vw;
     height: 100vh;
     z-index: 999;
 }
 
-  .loader .loading {color: #e4bb68;}
-  .loader .portfolio {color: #ff7883;}
-  .loader .name {color: #61afef;}
+  .loader .loading {color: var(--yellow-color);}
+  .loader .portfolio {color: var(--red-color);}
+  .loader .name {color: var(--blue-color);}
 
 
   .dot {
@@ -75,22 +73,7 @@
     }
     100% {
       transform: translateY(0);
-    }
+    } 
   }
-
-
-
-
-  /* @media -------------------------------------------------------*/
-  @media (prefers-color-scheme: light) {
-  .loader {
-    color: #000;
-    background-color: #d7d3cb;
-  }
-  
-  .loader .loading {color: #674606;}
-  .loader .portfolio {color: #B40B1B;}
-  .loader .name {color: #385772;}
-}
   
 </style>

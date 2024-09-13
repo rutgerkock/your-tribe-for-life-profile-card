@@ -6,34 +6,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>Rutger Kock</title>
 		%sveltekit.head%
+
+		<link rel="stylesheet" href="%sveltekit.assets%/css/global.css">
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
-		<style>
-			html {
-				background: #282c34;
-    			color: #fff;
-				font-family: jetbrains mono, monospace;
-				font-size: 1rem;
-				line-height: 1.5;
-				font-weight: 200;
-				padding: 0;
-				margin: 0;
-				box-sizing: border-box;
-			}
-			a {
-				color: #0070f3;
-			}
-			
-			@media (prefers-color-scheme: light) {
-				html {
-					color: #000;
-    				background-color: #d7d3cb;
-				}
-				a {
-					color: #1a0dab;
-				}
-			}
-		</style>
 	</body>
 </html>
