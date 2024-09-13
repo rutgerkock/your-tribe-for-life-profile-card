@@ -1,3 +1,7 @@
+<script>
+    import Sprint from '$lib/sprint.svelte';
+</script>
+
 <body>
     <nav>
         <h1>Rutger Kock</h1>
@@ -9,100 +13,10 @@
         <a href="https://github.com/rutgerkock" target="_blank">github @rutgerkock</a>
     </section>
     <section>
-        <h1>i-love-web &rarr; <span>blog</span></h1>
-        <h2>Sprint 1</h2>
-        <details name='weeks'>
-            <summary>Week 1</summary>
-            <ul>
-                <li>
-                    <h3>Maandag</h3>
-                    <dl>
-                        <dt>We hebben de introductie gehad en zijn verdeeld in groepjes voor onze squad page.</dt>
-                        <dt>Vervolgens afgesproken woensdag allemaal een lofi-design af te hebben.</dt>
-                    </dl>
-                </li>                
-                <li>
-                    <h3>Dinsdag</h3>
-                    <dl>
-                        <dt>Lofi-design gemaakt in Figma.</dt>
-                        <dl><a href="https://github.com/rutgerkock/your-tribe-for-life-squad-page/issues/1">Zie issue</a></dl>
-                        <dt>Svelte/Directus documentatie doorgelezen.</dt>
-                    </dl>
-                </li>                   
-                <li>
-                    <h3>Woensdag</h3>
-                    <dl>
-                        <dt>We hebben de introductie gehad en zijn verdeeld in groepjes voor onze squad page.</dt>
-                        <dt>Vervolgens afgesproken woensdag allemaal een lofi-design af te hebben.</dt>
-                    </dl>
-                </li>                   <li>
-                    <h3>Donderdag</h3>
-                    <dl>
-                        <dt>Lofi-design gemaakt in Figma.</dt>
-                        <dl><a href="https://github.com/rutgerkock/your-tribe-for-life-squad-page/issues/1">Zie issue</a></dl>
-                        <dt>Svelte/Directus documentatie doorgelezen.</dt>
-                    </dl>
-                </li>                  
-                <li>
-                    <h3>Vrijdag</h3>
-                    <dl>
-                        <dt>We hebben de introductie gehad en zijn verdeeld in groepjes voor onze squad page.</dt>
-                        <dt>Vervolgens afgesproken woensdag allemaal een lofi-design af te hebben.</dt>
-                    </dl>
-                </li>               
-            </ul>
-        </details>
-        <details name='weeks'>
-            <summary>Week 2</summary>
-            <ul>
-                <li>Maandag</li>
-                <li>Dinsdag</li>
-                <li>Woensdag</li>
-                <li>Donderdag</li>
-                <li>Vrijdag</li>
-            </ul>
-        </details>
-        <details name='weeks'>
-            <summary>Week 3</summary>
-            <ul>
-                <li>Maandag</li>
-                <li>Dinsdag</li>
-                <li>Woensdag</li>
-                <li>Donderdag</li>
-                <li>Vrijdag</li>
-            </ul>
-        </details>
-        <h2>Sprint 2</h2>
-        <details name='weeks'>
-            <summary>Week 1</summary>
-            <ul>
-                <li>Maandag</li>
-                <li>Dinsdag</li>
-                <li>Woensdag</li>
-                <li>Donderdag</li>
-                <li>Vrijdag</li>
-            </ul>
-        </details>
-        <details name='weeks'>
-            <summary>Week 2</summary>
-            <ul>
-                <li>Maandag</li>
-                <li>Dinsdag</li>
-                <li>Woensdag</li>
-                <li>Donderdag</li>
-                <li>Vrijdag</li>
-            </ul>
-        </details>
-        <details name='weeks'>
-            <summary>Week 3</summary>
-            <ul>
-                <li>Maandag</li>
-                <li>Dinsdag</li>
-                <li>Woensdag</li>
-                <li>Donderdag</li>
-                <li>Vrijdag</li>
-            </ul>
-        </details>
+        <h1>i-love-web<span class="dot">.</span><span class="blog">blog</span></h1>
+        <article>
+            <Sprint />
+        </article>
     </section>
 </body>
 
@@ -136,7 +50,7 @@
         height: 100vh; 
     }
 
-    span {
+    .blog {
         color: var(--red-color);
     }
 
@@ -151,28 +65,10 @@
         top: 0.5rem;
     }
 
-    section h2 {
-        margin-top: 1.5rem;
+    article {
+        display: flex;
+        flex-direction: row;
     }
 
-    section details {
-        margin: 1rem 0rem;
-    }
-
-    section details summary {
-        cursor: pointer;
-    }
-
-    section ul {
-        width: 70%;
-        margin: 2rem 1rem;
-        width: 70%;
-    }
-
-    section ul li {
-        list-style: none;
-        padding: 1rem 0rem;
-        color: var(--yellow-color);
-    }
 
 </style>

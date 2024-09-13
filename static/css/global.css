@@ -36,6 +36,10 @@ a {
     z-index: 999;
 }
 
+.dot {
+    color: var(--text-color);
+}
+
 
 @media (prefers-color-scheme: light) {
     :root {
