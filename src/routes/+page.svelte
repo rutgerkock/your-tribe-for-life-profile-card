@@ -151,5 +151,21 @@
         width: 90vw;
         padding-left: 2rem;
     }
+    
+    .sprintsArticle article::-webkit-scrollbar,
+    .notes::-webkit-scrollbar {
+        width: 12px; 
+    }
+
+    .sprintsArticle article::-webkit-scrollbar-thumb,
+    .notes::-webkit-scrollbar-thumb {
+        background-color: var(--border-color); 
+        border-radius: 10px;
+    }
+
+    .sprintsArticle article::-webkit-scrollbar-thumb:hover,
+    .notes::-webkit-scrollbar-thumb:hover {
+        background-color: var(--yellow-color); 
+    }
 
 </style>
