@@ -8,6 +8,8 @@
         <h1>Rutger Kock</h1>
     </nav>
 
+<a id="goToTop" href="https://rutgerkock.nl/">&#x2191;</a>
+
     <h1 id="fdnd">FDND</h1>
 
     <section>

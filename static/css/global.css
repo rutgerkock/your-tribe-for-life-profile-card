@@ -36,6 +36,23 @@ a {
     z-index: 999;
 }
 
+#goToTop {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: #3f3f3f;
+    border-radius: 50%;
+    z-index: 999;
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--text-color);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
 .dot {
     color: var(--text-color);
 }
