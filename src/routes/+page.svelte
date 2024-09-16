@@ -8,11 +8,11 @@
         <h1>Rutger Kock</h1>
     </nav>
 
-<a id="goToTop" href="https://rutgerkock.nl/">&#x2191;</a>
+    <a id="goToTop" href="#top">&#x2191;</a>
 
     <h1 id="fdnd">FDND</h1>
 
-    <section>
+    <section id="top">
         <a href="https://github.com/rutgerkock" target="_blank">github @rutgerkock</a>
     </section>
     <section>
@@ -98,9 +98,9 @@
         flex-direction: column;
         align-items: center;
         gap: 1rem;        
-        border: 1px solid #3f3f3f;
+        border: 1px solid var(--border-color);
         border-radius: 4px;
-        background-color: #2d2d2d;
+        background-color: var(--box-color);
         padding: 1rem;
         min-width: 10.5rem;
         height: 32rem;
@@ -123,7 +123,7 @@
         font-size: 1.2rem;
         color: var(--yellow-color);
         background-color: var(--background-color);
-        border: 1px solid #3f3f3f;
+        border: 1px solid var(--border-color);
         padding: 8px 12px;
         border-radius: 4px;
         cursor: pointer;
@@ -132,7 +132,7 @@
     }
 
     .sprintButton:hover {
-        background-color: #3f3f3f;
+        background-color: var(--box-color);
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     }
 
