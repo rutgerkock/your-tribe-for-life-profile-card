@@ -1,6 +1,23 @@
 <script>
     import Test from '$lib/test.md';
     import Notes from '$lib/notes.md';
+
+    function scrollToSection(event, sectionId) {
+        event.preventDefault();
+        const container = document.querySelector('.scrollable_container');
+        const target = document.querySelector(sectionId);
+        if (container && target) {
+            const containerRect = container.getBoundingClientRect();
+            const targetRect = target.getBoundingClientRect();
+
+            const scrollTop = targetRect.top - containerRect.top + container.scrollTop - 24;
+
+            container.scrollTo({
+                top: scrollTop,
+                behavior: 'smooth'
+            });
+        }
+    }
 </script>
 
 <body>
@@ -20,8 +37,8 @@
         <article class="sprintsArticle">
             <ul class="sprintButtonList">
                 <li><p>Sprints 24/25</p></li>
-                <li><a class="sprintButton" href="#sprint-13">Sprint 13</a></li>
-                <li><a class="sprintButton" href="#sprint-14">Sprint 14</a></li>
+                <li><a class="sprintButton" href="#sprint-13" on:click={(e) => scrollToSection(e, '#sprint-13')}>Sprint 13</a></li>
+                <li><a class="sprintButton" href="#sprint-14" on:click={(e) => scrollToSection(e, '#sprint-14')}>Sprint 14</a></li>
                 <li><a class="sprintButton" href="#sprint-15">Sprint 15</a></li>
                 <li><a class="sprintButton" href="#sprint-16">Sprint 16</a></li>
                 <li><a class="sprintButton" href="#sprint-17">Sprint 17</a></li>
@@ -55,7 +72,7 @@
         margin: 0;
         height: 100vh; 
         scroll-snap-type: y mandatory; 
-        overflow-y: auto; 
+        overflow-y: auto;
     }
 
     section {
