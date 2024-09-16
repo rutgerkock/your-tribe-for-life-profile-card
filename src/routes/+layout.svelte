@@ -13,11 +13,11 @@
 
 {#if !isLoaded}
   <div class="loader">
-    <span class="loading">loading</span>
+    <span class="yellow">loading</span>
     <span>.</span>
-    <span class="name">rutger</span>
+    <span class="red">rutger</span>
     <span>.</span>
-    <span class="portfolio">profile_card</span>
+    <span class="blue">profile_card</span>
 
     <span class="dot dot1">.</span>
     <span class="dot dot2">.</span>
@@ -39,13 +39,8 @@
     color: var(--text-color);
     width: 100vw;
     height: 100vh;
-    z-index: 999;
-}
-
-  .loader .loading {color: var(--yellow-color);}
-  .loader .portfolio {color: var(--red-color);}
-  .loader .name {color: var(--blue-color);}
-
+    z-index: 1000;
+  }
 
   .dot {
     animation: blink 1.5s infinite;

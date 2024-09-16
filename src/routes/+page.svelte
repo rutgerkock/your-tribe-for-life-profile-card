@@ -22,177 +22,192 @@
 
 <body>
     <nav>
-        <h1>Rutger Kock</h1>
+        <h1><a href="#top">Rutger Kock</a></h1>
+        <h1><a href="https://fdnd.nl/" target="_blank">FDND</a></h1>
     </nav>
 
     <a title="This button gets you to the top of the page" id="goToTop" href="#top">&#x2191;</a>
 
-    <h1 id="fdnd">FDND</h1>
-
     <section id="top">
         <a href="https://github.com/rutgerkock" target="_blank">github @rutgerkock</a>
     </section>
+    
     <section>
-        <h1>i-love-web<span class="dot">.</span><span class="blog">blog</span></h1>
+        <h1>i-love-web<span class="dot">.</span><span class="red">blog</span></h1>
         <article class="sprintsArticle">
             <ul class="sprintButtonList">
                 <li><p>Sprints 24/25</p></li>
                 <li><a class="sprintButton" href="#sprint-13" on:click={(e) => scrollToSection(e, '#sprint-13')}>Sprint 13</a></li>
                 <li><a class="sprintButton" href="#sprint-14" on:click={(e) => scrollToSection(e, '#sprint-14')}>Sprint 14</a></li>
-                <li><a class="sprintButton" href="#sprint-15">Sprint 15</a></li>
-                <li><a class="sprintButton" href="#sprint-16">Sprint 16</a></li>
-                <li><a class="sprintButton" href="#sprint-17">Sprint 17</a></li>
-                <li><a class="sprintButton" href="#sprint-18">Sprint 18</a></li>
-                <li><a class="sprintButton" href="#sprint-19">Sprint 19</a></li>
-                <li><a class="sprintButton" href="#sprint-20">Sprint 20</a></li>
+                <li><a class="sprintButton" href="#sprint-15" on:click={(e) => scrollToSection(e, '#sprint-15')}>Sprint 15</a></li>
+                <li><a class="sprintButton" href="#sprint-16" on:click={(e) => scrollToSection(e, '#sprint-16')}>Sprint 16</a></li>
+                <li><a class="sprintButton" href="#sprint-17" on:click={(e) => scrollToSection(e, '#sprint-17')}>Sprint 17</a></li>
+                <li><a class="sprintButton" href="#sprint-18" on:click={(e) => scrollToSection(e, '#sprint-18')}>Sprint 18</a></li>
+                <li><a class="sprintButton" href="#sprint-19" on:click={(e) => scrollToSection(e, '#sprint-19')}>Sprint 19</a></li>
+                <li><a class="sprintButton" href="#sprint-20" on:click={(e) => scrollToSection(e, '#sprint-20')}>Sprint 20</a></li>                
             </ul>
-            <article class="scrollable_container">
+            <div class="scrollable_container">
                 <Test />
-            </article>
-        </article>
-        <article class="notes">
-            <Notes />            
+            </div>
+            <div>
+                <Notes />            
+            </div>
         </article>
     </section>
-    
 </body>
 
 <style>
-    nav {
-        display: flex;
-        justify-content: space-between;
-        position: fixed;
-        background-color: var(--background-color);
-        width: 100%;
-        padding: 1rem 4rem;
-        z-index: 996;
-    }
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: var(--background-color);
+    width: 100%;
+    padding: 1rem 7vw;
+    z-index: 998;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
 
-    body {
-        margin: 0;
-        height: 100vh; 
-        scroll-snap-type: y mandatory; 
-        overflow-y: auto;
-    }
+nav h1 a {
+    color: var(--text-color);
+}
 
-    section {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        padding: 7rem 4rem;
-        scroll-snap-align: start; 
-    }
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh; 
+    scroll-snap-type: y mandatory; 
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
 
-    section:first-of-type {
-        height: 100vh; 
-    }
+section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 7vw;
+    scroll-snap-align: start; 
+}
 
-    .blog {
-        color: var(--red-color);
-    }
 
-    section h1 {
-        font-size: 2rem;
-        margin: 2rem 0rem;
-        color: var(--blue-color);
-        position: sticky;
-        z-index: 997; 
-        width: 100%;
-        background-color: var(--background-color);
-        top: 0.5rem;
-    }
+section:first-of-type {height: 100vh;}
 
-    article {
-        display: flex;
-        flex-direction: column;
-    }
 
-    
+section h1 {
+    font-size: 2rem;
+    text-wrap: nowrap;
+    color: var(--blue-color);
+    position: sticky;
+    background-color: var(--background-color);
+    top: 0.5em;
+    z-index: 998;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+.sprintsArticle {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(11, 1fr);
+    gap: 1rem;
+}
+
+.sprintsArticle ul { 
+    grid-area: 1 / 1 / 2 / 2; 
+    align-items: center;
+}
+.sprintsArticle div:nth-of-type(1) { 
+    grid-area: 2 / 1 / 7 / 2; 
+    display: flex;
+    flex-direction: column;
+}
+.sprintsArticle div:nth-of-type(2) {
+    grid-area: 7 / 1 / 13 / 2; 
+    display: flex;
+    flex-direction: column;
+}
+
+.sprintsArticle div {
+    align-items: flex-start;
+    overflow-y: auto;
+    padding: 1rem;
+    height: 25rem;
+}
+
+.sprintButtonList ul li p {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.sprintButtonList, .sprintsArticle div {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background-color: var(--box-color);
+    padding: 1rem;
+    min-width: 10.5rem;
+    overflow-x: scroll;
+}
+
+.sprintButtonList {
+    align-items: center;
+    text-wrap: nowrap;
+}
+
+.sprintButton {
+    color: var(--yellow-color);
+    background-color: var(--background-color);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 8px 12px;
+    transition: background-color 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-wrap: nowrap;
+    margin: 0 0.5rem;
+}
+
+.sprintButton:hover {
+    background-color: var(--box-color);
+}
+
+.sprintButton:active {
+    background-color: #4f4f4f;
+}
+
+@media (min-width: 450px) {
     .sprintsArticle {
-        flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
     }
 
-    .sprintButtonList, .sprintsArticle Article, .notes {
+    .sprintsArticle ul { 
+        grid-area: 1 / 1 / 2 / 2; 
+        align-items: center;
+        gap: 2rem;
+    }
+    .sprintsArticle div:nth-of-type(1) { grid-area: 1 / 2 / 2 / 7; }
+    .sprintsArticle div:nth-of-type(2) { grid-area: 2 / 1 / 3 / 7; }
+
+    .sprintButtonList, .sprintsArticle div {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        gap: 1rem;        
         border: 1px solid var(--border-color);
         border-radius: 4px;
         background-color: var(--box-color);
         padding: 1rem;
         min-width: 10.5rem;
         height: 32rem;
+        overflow-x: hidden;
     }
-
-    .sprintsArticle article{
-        margin: 1rem 1rem 1rem 0;
-        width: 74vw;
-    }
-
-    .sprintButtonList {
-        margin: 1rem 1rem 1rem 0;
-        list-style: none;
-        width: 15vw;
-    }
-
-    .sprintButtonList li {
-        height: 2rem;
-        margin-bottom: 0.5rem;
-    }
-
-    .sprintButton {
-        font-family: monospace;
-        font-weight: bold;
-        font-size: 1.2rem;
-        color: var(--yellow-color);
-        background-color: var(--background-color);
-        border: 1px solid var(--border-color);
-        padding: 8px 12px;
-        border-radius: 4px;
-        cursor: pointer;
-        transition: background-color 0.2s, box-shadow 0.2s;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    }
-
-
-    .sprintButton:hover {
-        background-color: var(--box-color);
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    }
-
-    .sprintButton:active {
-        background-color: #4f4f4f;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-    }
-
-    .sprintsArticle article, .notes {
-        height: 32rem;
-        overflow-y: scroll;
-        align-items: flex-start;
-    }
-
-    .notes {
-        width: 90vw;
-        padding-left: 2rem;
-    }
-
-    .sprintsArticle article::-webkit-scrollbar,
-    .notes::-webkit-scrollbar {
-        width: 12px; 
-    }
-
-    .sprintsArticle article::-webkit-scrollbar-thumb,
-    .notes::-webkit-scrollbar-thumb {
-        background-color: var(--border-color); 
-        border-radius: 10px;
-    }
-
-    .sprintsArticle article::-webkit-scrollbar-thumb:hover,
-    .notes::-webkit-scrollbar-thumb:hover {
-        background-color: var(--yellow-color); 
-    }
+}
 
 </style>
-
-
