@@ -1,5 +1,5 @@
 <script>
-    import Sprint from '$lib/sprint.svelte';
+    import Test from '$lib/test.md';
 </script>
 
 <body>
@@ -14,8 +14,21 @@
     </section>
     <section>
         <h1>i-love-web<span class="dot">.</span><span class="blog">blog</span></h1>
-        <article>
-            <Sprint />
+        <article class="sprintsArticle">
+            <ul class="sprintButtonList">
+                <li><p>Sprints 24/25</p></li>
+                <li><button class="sprintButton">Sprint 13</button></li>
+                <li><button class="sprintButton">Sprint 14</button></li>
+                <li><button class="sprintButton">Sprint 15</button></li>
+                <li><button class="sprintButton">Sprint 16</button></li>
+                <li><button class="sprintButton">Sprint 17</button></li>
+                <li><button class="sprintButton">Sprint 18</button></li>
+                <li><button class="sprintButton">Sprint 19</button></li>
+                <li><button class="sprintButton">Sprint 20</button></li>
+            </ul>
+            <article>                
+                <Test />
+            </article>
         </article>
     </section>
 </body>
@@ -67,8 +80,60 @@
 
     article {
         display: flex;
+        flex-direction: column;
+    }
+
+    .sprintsArticle {
         flex-direction: row;
     }
 
+    .sprintButtonList, .sprintsArticle article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;        
+        margin: 1rem 1rem 1rem 0;
+        border: 1px solid #3f3f3f;
+        border-radius: 4px;
+        background-color: #2d2d2d;
+        padding: 1rem;
+        min-width: 10.5rem;
+        height: 32rem;
+    }
+
+    .sprintButtonList li {
+        list-style: none;
+    }
+
+    .sprintButton {
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 1.2rem;
+        color: var(--yellow-color);
+        background-color: var(--background-color);
+        border: 1px solid #3f3f3f;
+        padding: 8px 12px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.2s, box-shadow 0.2s;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .sprintButton:hover {
+        background-color: #3f3f3f;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .sprintButton:active {
+        background-color: #4f4f4f;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    }
+
+    .sprintsArticle article {
+        width: 100%;
+        height: 32rem;
+        overflow-y: scroll;
+        align-items: flex-start;
+    }
 
 </style>
