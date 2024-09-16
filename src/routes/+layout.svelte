@@ -4,7 +4,9 @@
   let isLoaded = false;
 
   onMount(() => {
-      isLoaded = true;    
+    setTimeout(() => {
+      isLoaded = true;
+    }, 1200); 
   });
 
 </script>
