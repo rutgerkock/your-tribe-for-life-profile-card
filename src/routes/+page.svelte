@@ -8,7 +8,7 @@
         <h1>Rutger Kock</h1>
     </nav>
 
-    <a id="goToTop" href="#top">&#x2191;</a>
+    <a title="This button gets you to the top of the page" id="goToTop" href="#top">&#x2191;</a>
 
     <h1 id="fdnd">FDND</h1>
 
@@ -20,16 +20,16 @@
         <article class="sprintsArticle">
             <ul class="sprintButtonList">
                 <li><p>Sprints 24/25</p></li>
-                <li><button class="sprintButton">Sprint 13</button></li>
-                <li><button class="sprintButton">Sprint 14</button></li>
-                <li><button class="sprintButton">Sprint 15</button></li>
-                <li><button class="sprintButton">Sprint 16</button></li>
-                <li><button class="sprintButton">Sprint 17</button></li>
-                <li><button class="sprintButton">Sprint 18</button></li>
-                <li><button class="sprintButton">Sprint 19</button></li>
-                <li><button class="sprintButton">Sprint 20</button></li>
+                <li><a class="sprintButton" href="#sprint-13">Sprint 13</a></li>
+                <li><a class="sprintButton" href="#sprint-14">Sprint 14</a></li>
+                <li><a class="sprintButton" href="#sprint-15">Sprint 15</a></li>
+                <li><a class="sprintButton" href="#sprint-16">Sprint 16</a></li>
+                <li><a class="sprintButton" href="#sprint-17">Sprint 17</a></li>
+                <li><a class="sprintButton" href="#sprint-18">Sprint 18</a></li>
+                <li><a class="sprintButton" href="#sprint-19">Sprint 19</a></li>
+                <li><a class="sprintButton" href="#sprint-20">Sprint 20</a></li>
             </ul>
-            <article>                
+            <article class="scrollable_container">
                 <Test />
             </article>
         </article>
@@ -37,6 +37,7 @@
             <Notes />            
         </article>
     </section>
+    
 </body>
 
 <style>
@@ -54,7 +55,7 @@
         margin: 0;
         height: 100vh; 
         scroll-snap-type: y mandatory; 
-        overflow-y: scroll; 
+        overflow-y: auto; 
     }
 
     section {
@@ -89,6 +90,7 @@
         flex-direction: column;
     }
 
+    
     .sprintsArticle {
         flex-direction: row;
     }
@@ -117,6 +119,11 @@
         width: 15vw;
     }
 
+    .sprintButtonList li {
+        height: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
     .sprintButton {
         font-family: monospace;
         font-weight: bold;
@@ -130,6 +137,7 @@
         transition: background-color 0.2s, box-shadow 0.2s;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     }
+
 
     .sprintButton:hover {
         background-color: var(--box-color);
@@ -151,7 +159,7 @@
         width: 90vw;
         padding-left: 2rem;
     }
-    
+
     .sprintsArticle article::-webkit-scrollbar,
     .notes::-webkit-scrollbar {
         width: 12px; 
@@ -169,3 +177,5 @@
     }
 
 </style>
+
+

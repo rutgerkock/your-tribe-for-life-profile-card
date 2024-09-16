@@ -1,10 +1,6 @@
 ## Notes
 **Client side rendering uitzetten:**
 
-<code>Export let car = false
-(+ page.js in de root van de route folder)
-</code>
-
 <br>
 
 **Mapjes svelte uitleg:**
