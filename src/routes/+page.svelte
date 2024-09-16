@@ -147,6 +147,7 @@
 
     .notes {
         width: 90vw;
+        padding-left: 2rem;
     }
 
 </style>
