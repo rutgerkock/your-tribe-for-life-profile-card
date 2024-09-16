@@ -1,5 +1,6 @@
 <script>
     import Test from '$lib/test.md';
+    import Notes from '$lib/notes.md';
 </script>
 
 <body>
@@ -29,6 +30,9 @@
             <article>                
                 <Test />
             </article>
+        </article>
+        <article class="notes">
+            <Notes />            
         </article>
     </section>
 </body>
@@ -87,12 +91,11 @@
         flex-direction: row;
     }
 
-    .sprintButtonList, .sprintsArticle article{
+    .sprintButtonList, .sprintsArticle Article, .notes {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 1rem;        
-        margin: 1rem 1rem 1rem 0;
         border: 1px solid #3f3f3f;
         border-radius: 4px;
         background-color: #2d2d2d;
@@ -101,8 +104,15 @@
         height: 32rem;
     }
 
-    .sprintButtonList li {
+    .sprintsArticle article{
+        margin: 1rem 1rem 1rem 0;
+        width: 74vw;
+    }
+
+    .sprintButtonList {
+        margin: 1rem 1rem 1rem 0;
         list-style: none;
+        width: 15vw;
     }
 
     .sprintButton {
@@ -129,11 +139,14 @@
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     }
 
-    .sprintsArticle article {
-        width: 100%;
+    .sprintsArticle article, .notes {
         height: 32rem;
         overflow-y: scroll;
         align-items: flex-start;
+    }
+
+    .notes {
+        width: 90vw;
     }
 
 </style>

@@ -1,7 +1,7 @@
 ## Sprint 13
 ### Week 1
 *Maandag*
-Maandag heb ik kebab gegeten
+ 
 
 *Dinsdag*
 
