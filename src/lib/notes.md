@@ -338,6 +338,6 @@ Zo heb je als team door wat er moet gebeuren en krijg je een goed beeld van je t
 -   Refactor
 
 # wrap-up
-
--   Refactored code: gestructureerde code (conventies), semantiek, geen commented code, geen console.log(), goede tabs
--   readme.md: CMS uitleg, installatiehandleiding, kenmerken, huisstijl, Instructies.
+- **Refactored code**: gestructureerde code (conventies), semantiek, geen commented code, geen console.log(), goede tabs
+- **readme.md**: kenmerken, live link, screenshot (s?),  Instructies (uitleg over gebruik), installatiehandleiding, CMS uitleg, huisstijl (of waar die te vinden is), bijdragen? (Hints voor volgende dev-teams), gebruikte bronnen.
+- Live zetten: Github pages, Vercel, Netlify, ondrender.
