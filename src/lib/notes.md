@@ -321,3 +321,23 @@ Voorbeelden: 
 Is een consensus-gebaseerde techniek voor het schatten. Leden van de squad geven schattingen door genummerde kaarten op tafel te leggen of op schrijven zonder hardop te zeggen.\
 Kaarten worden omgedraaid of besproken en de schattingen worden vervolgens gesproken.\
 Zo heb je als team door wat er moet gebeuren en krijg je een goed beeld van je taken.
+
+<br>
+
+**WOENSDAG: 18 sept **🌬️
+
+**Wrap up: over hoe je projecten oplevert **
+
+-   Codeconventies
+-   ReadMe
+-   Hoe? -> debriefing
+-   Live zetten / publiceren
+-   Cms uitleg -> readme
+-   Huisstijl -> readme/ PDF
+-   Gestructureerde code/ semantiek/ tabs/ comments weg / console.log weg
+-   Refactor
+
+# wrap-up
+
+-   Refactored code: gestructureerde code (conventies), semantiek, geen commented code, geen console.log(), goede tabs
+-   readme.md: CMS uitleg, installatiehandleiding, kenmerken, huisstijl, Instructies.
