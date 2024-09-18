@@ -324,7 +324,7 @@ Zo heb je als team door wat er moet gebeuren en krijg je een goed beeld van je t
 
 <br>
 
-**WOENSDAG: 18 sept **🌬️
+**WOENSDAG: 18 sept**
 
 **Wrap up: over hoe je projecten oplevert **
 
