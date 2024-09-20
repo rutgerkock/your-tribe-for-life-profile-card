@@ -22,13 +22,13 @@
 
 *Woensdag*
 - We hebben het gehad over onze designs en zijn samen tot een samenvoeging van onze designs gekomen waar we nu zelf verder aan kunnen werken. [Zie issue](https://github.com/rutgerkock/your-tribe-for-life-squad-page/issues/1(https://github.com/users/rutgerkock/projects/7?pane=issue&itemId=78311249))
-- Opzetten van de Github repo en het maken van een team-canvas. [Zie issue](href='https://github.com/users/rutgerkock/projects/7/views/1?pane=issue&itemId=78310746)
+- Opzetten van de Github repo en het maken van een team-canvas. [Zie issue](https://github.com/users/rutgerkock/projects/7/views/1?pane=issue&itemId=78310746)
 - Ik heb een design gemaakt in Figma voor mijn visitekaartje.
 
 <br>
 
 *Donderdag*
-- Ik heb vandaag gewerkt aan een animatie/loading state die we willen gebruiken voor de squad page, maar ik ook zelf wil gebruiken. [Zie issue](href='https://github.com/rutgerkock/your-tribe-for-life-profile-card/commit/8c64582d2b32e64710412be7ff628fc1267759f8)
+- Ik heb vandaag gewerkt aan een animatie/loading state die we willen gebruiken voor de squad page, maar ik ook zelf wil gebruiken. [Zie issue](https://github.com/rutgerkock/your-tribe-for-life-profile-card/commit/8c64582d2b32e64710412be7ff628fc1267759f8)
 
 <br>
 
@@ -36,9 +36,9 @@
 - Ik heb deze ochtend voor m'n eigen profile-card een loading animation gemaakt. [Zie commit](https://github.com/rutgerkock/your-tribe-for-life-profile-card/commit/40ab1d1367e0e61907de709e8a4ff8e77d426ef2)
 - Later deze ochtend heb ik ervoor gezorgd dat de basis van mijn eigen profile-card voldoet aan contrast eisen en een prettige dark mode heeft.
 - Eerstejaars voorzien van feedback. Ik heb aan halfuur met Rick gezeten en hem veel feedback gegeven. Hier wat issues die ik heb ingeschoten over code. 
-[Zie issues (1)](href='https://github.com/RickFDND/your-tribe-profile-card/issues/5)
-[Zie issues (2)](href='https://github.com/RickFDND/your-tribe-profile-card/issues/6)
-[Zie issues (3)](href='https://github.com/RickFDND/your-tribe-profile-card/issues/7)
+[Zie issues (1)](https://github.com/RickFDND/your-tribe-profile-card/issues/5)
+[Zie issues (2)](https://github.com/RickFDND/your-tribe-profile-card/issues/6)
+[Zie issues (3)](https://github.com/RickFDND/your-tribe-profile-card/issues/7)
 
 <br>
 

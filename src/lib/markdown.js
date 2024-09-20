@@ -9,7 +9,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 // Read markdown file (adjust path accordingly)
-const markdownPath = path.join(process.cwd(), 'src/lib/notes.md');  // Make sure this is the correct path to your markdown file
+const markdownPath = path.join(process.cwd(), 'src/lib/notes.md');  // Adjust this path as needed
 const fileContent = fs.readFileSync(markdownPath, 'utf8');
 
 // Convert markdown to HTML with auto-linked headings
@@ -26,15 +26,14 @@ console.log(doc);
 
 // Function to convert markdown string to HTML
 async function markdownToHtml(string) {
-  return (
-    unified()
-      .use(remarkParse)
-      .use(remarkSlug)
-      .use(remarkAutolinkHeadings, { behavior: 'wrap' })
-      .use(remarkRehype, { allowDangerousHtml: true })
-      .use(rehypeStringify, { allowDangerousHtml: true })
-      .process(string)
-  );
+  const result = await unified()
+    .use(remarkParse)
+    .use(remarkSlug)
+    .use(remarkAutolinkHeadings, { behavior: 'wrap' })
+    .use(remarkRehype, { allowDangerousHtml: true })
+    .use(rehypeStringify, { allowDangerousHtml: true })
+    .process(string);
+  return result.toString();
 }
 
 // Function to process markdown in Svelte files
@@ -42,10 +41,10 @@ async function html(content) {
   const svast = parse(content);  // Parse the content
   const { start, end } = svast.html;  // Extract the HTML part from Svelte file
   const string = content.slice(start, end);  // Get the markdown part as string
-  const html = await markdownToHtml(string);  // Convert markdown to HTML
+  const htmlContent = await markdownToHtml(string);  // Convert markdown to HTML
 
   return {
-    code: content.replace(string, html),  // Replace markdown content with HTML
+    code: content.replace(string, htmlContent),  // Replace markdown content with HTML
   };
 }
 
@@ -53,9 +52,9 @@ async function html(content) {
 function markdown() {
   return {
     name: 'markdown',
-    markup({ content, filename }) {
+    async markup({ content, filename }) {
       if (filename.endsWith('.md')) {  // Process only .md files
-        return html(content);
+        return await html(content);  // Await the async HTML transformation
       }
     },
   };
