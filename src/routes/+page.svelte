@@ -44,6 +44,7 @@
                 <source src={`${currentImage}.webp`} media="(max-width: 600px)" type="image/webp" on:click={handleImageClick}>
                 <img src={`${currentImage}.jpg`} loading="lazy" on:click={handleImageClick} />
             </picture>
+            
         </article>
     </section>
     <section>
