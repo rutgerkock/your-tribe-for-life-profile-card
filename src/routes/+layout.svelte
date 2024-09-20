@@ -1,5 +1,8 @@
 <script>
   import { onMount } from 'svelte';
+  import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
+
+  injectSpeedInsights();
 
   let isLoaded = false;
 
