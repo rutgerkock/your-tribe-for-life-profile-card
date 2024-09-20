@@ -7,6 +7,9 @@ import remarkRehype from 'remark-rehype';
 import rehypeStringify from 'rehype-stringify';
 import fs from 'node:fs';
 import path from 'node:path';
+import { remark } from 'remark';
+import remarkHtml from 'remark-html';
+
 
 // Read markdown file (adjust path accordingly)
 const markdownPath = path.join(process.cwd(), 'src/lib/notes.md');  // Adjust this path as needed
@@ -49,15 +52,13 @@ async function html(content) {
 }
 
 // Custom Svelte preprocessor for markdown
-function markdown() {
+export default function markdown() {
   return {
-    name: 'markdown',
-    async markup({ content, filename }) {
-      if (filename.endsWith('.md')) {  // Process only .md files
-        return await html(content);  // Await the async HTML transformation
-      }
-    },
+    markup: async ({ content }) => {
+      const result = await remark().use(remarkHtml).process(content);
+      return {
+        code: result.toString()
+      };
+    }
   };
 }
-
-export default markdown;

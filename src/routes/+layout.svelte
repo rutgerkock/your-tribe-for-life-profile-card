@@ -11,7 +11,6 @@
       isLoaded = true;
     }, 1200); 
   });
-
 </script>
 
 {#if !isLoaded}
@@ -26,8 +25,8 @@
     <span class="dot dot2">.</span>
     <span class="dot dot3">.</span>
   </div>
-
 {/if}
+
 <slot />
 
 <style>
@@ -61,19 +60,15 @@
     animation-delay: 0.6s;
   }
 
-
-  /* animations -------------------------------------------------------*/
   @keyframes blink {
     0%, 20% {
       transform: translateY(0);
     }
     50% {
-
       transform: translateY(-10px);
     }
     100% {
       transform: translateY(0);
     } 
   }
-  
 </style>

@@ -3,9 +3,6 @@
     import Test from '$lib/test.md';
     import Notes from '$lib/notes.md';
 
-    import image1 from '$lib/assets/img1.jpg';
-
-
     function scrollToSection(event, sectionId) {
         event.preventDefault();
         const container = document.querySelector('.scrollable_container');
@@ -37,14 +34,7 @@
     <section id="top">
         <a href="https://github.com/{data.persons.github_handle}" target="_blank">Github {data.persons.github_handle}</a>
         <a href="mailto:kock.rutger@gmail.com">Email</a>
-        <article class="image_gallery">
-            <h2>Ik maak graag foto's</h2>
-            <picture>
-                <source src={`${currentImage}.avif`} media="(max-width: 600px)" type="image/avif" on:click={handleImageClick}>
-                <source src={`${currentImage}.webp`} media="(max-width: 600px)" type="image/webp" on:click={handleImageClick}>
-                <img src={`${currentImage}.jpg`} loading="lazy" on:click={handleImageClick} />
-            </picture>
-            
+        <article class="image_gallery">            
         </article>
     </section>
     <section>
