@@ -33,22 +33,10 @@
     <a title="This button gets you to the top of the page" id="goToTop" href="#top">&#x2191;</a>
 
     <section id="top">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         <a href="https://github.com/{data.persons.github_handle}" target="_blank">Github {data.persons.github_handle}</a>
         <a href="mailto:kock.rutger@gmail.com">Email</a>
         <article class="image_gallery">            
         </article>
-=======
-        <a href="https://github.com/{data.persons.github_handle}" target="_blank">gihub {data.persons.github_handle}</a>
->>>>>>> parent of 8065221 (added image gallery)
-=======
-        <a href="https://github.com/{data.persons.github_handle}" target="_blank">gihub {data.persons.github_handle}</a>
->>>>>>> parent of 8065221 (added image gallery)
-=======
-        <a href="https://github.com/{data.persons.github_handle}" target="_blank">gihub {data.persons.github_handle}</a>
->>>>>>> parent of 8065221 (added image gallery)
     </section>
     <section>
         <h1>i-love-web<span class="dot">.</span><span class="red">blog</span></h1>
@@ -199,9 +187,6 @@ article {
     background-color: #4f4f4f;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 .image_gallery {
     display: flex;
     flex-wrap: wrap; 
@@ -213,12 +198,6 @@ article {
 }
 
 
-=======
->>>>>>> parent of 8065221 (added image gallery)
-=======
->>>>>>> parent of 8065221 (added image gallery)
-=======
->>>>>>> parent of 8065221 (added image gallery)
 @media (min-width: 450px) {
     .sprintsArticle {
     display: grid;
