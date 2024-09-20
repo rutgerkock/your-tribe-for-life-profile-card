@@ -1,4 +1,5 @@
 <script>
+    export let data
     import Test from '$lib/test.md';
     import Notes from '$lib/notes.md';
 
@@ -23,7 +24,7 @@
 <body>
     <nav>
         <div>
-            <h2><a href="#top">Rutger Kock</a></h2>
+            <h2><a href="https://{data.persons.website}">{data.persons.name} {data.persons.surname}</a></h2>
             <h2><a href="/about">About</a></h2>
         </div>
         <h2><a href="https://fdnd.nl/" target="_blank">FDND</a></h2>
@@ -32,7 +33,7 @@
     <a title="This button gets you to the top of the page" id="goToTop" href="#top">&#x2191;</a>
 
     <section id="top">
-        <a href="https://github.com/rutgerkock" target="_blank">github @rutgerkock</a>
+        <a href="https://github.com/{data.persons.github_handle}" target="_blank">gihub {data.persons.github_handle}</a>
     </section>
     
     <section>
