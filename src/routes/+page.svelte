@@ -74,7 +74,11 @@
         <a href="mailto:kock.rutger@gmail.com">Email</a>
         <article class="image_gallery">
             <h2>Ik maak graag foto's</h2>
-            <img src={currentImage} alt="Random image" on:click={handleImageClick} />
+            <picture>
+                <source src={currentImage} media="(max-width: 600px)" type="image/avif" on:click={handleImageClick}>
+                <source src={currentImage} media="(max-width: 600px)" type="image/webp" on:click={handleImageClick}>
+                <img src={currentImage} loading="lazy" media="(max-width: 600px)" on:click={handleImageClick}/>
+            </picture>
         </article>
     </section>
     
