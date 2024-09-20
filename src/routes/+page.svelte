@@ -1,5 +1,5 @@
 <script>
-    export let data;
+    export let data
     import Test from '$lib/test.md';
     import Notes from '$lib/notes.md';
 
@@ -25,6 +25,7 @@
     <nav>
         <div>
             <h2><a href="https://{data.persons.website}">{data.persons.name} {data.persons.surname}</a></h2>
+            <h2><a href="/about">About</a></h2>
         </div>
         <h2><a href="https://fdnd.nl/" target="_blank">FDND</a></h2>
     </nav>
@@ -32,10 +33,14 @@
     <a title="This button gets you to the top of the page" id="goToTop" href="#top">&#x2191;</a>
 
     <section id="top">
+<<<<<<< HEAD
         <a href="https://github.com/{data.persons.github_handle}" target="_blank">Github {data.persons.github_handle}</a>
         <a href="mailto:kock.rutger@gmail.com">Email</a>
         <article class="image_gallery">            
         </article>
+=======
+        <a href="https://github.com/{data.persons.github_handle}" target="_blank">gihub {data.persons.github_handle}</a>
+>>>>>>> parent of 8065221 (added image gallery)
     </section>
     <section>
         <h1>i-love-web<span class="dot">.</span><span class="red">blog</span></h1>
@@ -60,7 +65,6 @@
         </article>
     </section>
 </body>
-
 
 <style>
 nav {
@@ -187,6 +191,7 @@ article {
     background-color: #4f4f4f;
 }
 
+<<<<<<< HEAD
 .image_gallery {
     display: flex;
     flex-wrap: wrap; 
@@ -198,6 +203,8 @@ article {
 }
 
 
+=======
+>>>>>>> parent of 8065221 (added image gallery)
 @media (min-width: 450px) {
     .sprintsArticle {
     display: grid;
@@ -226,6 +233,5 @@ article {
         overflow-x: hidden;
     }
 }
-
 
 </style>
