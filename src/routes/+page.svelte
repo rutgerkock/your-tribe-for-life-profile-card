@@ -1,7 +1,45 @@
 <script>
-    export let data
+    export let data;
     import Test from '$lib/test.md';
     import Notes from '$lib/notes.md';
+
+    // Import your images
+    import image1 from '$lib/assets/img1.jpg';
+    import image2 from '$lib/assets/img2.jpg';
+    import image3 from '$lib/assets/img3.jpg';
+    import image4 from '$lib/assets/img4.jpg';
+    import image5 from '$lib/assets/img5.jpg';
+    import image6 from '$lib/assets/img6.jpg';
+    import image7 from '$lib/assets/img7.jpg';
+    import image8 from '$lib/assets/img8.jpg';
+    import image9 from '$lib/assets/img9.jpg';
+    import image10 from '$lib/assets/img10.jpg';
+    import image11 from '$lib/assets/img11.jpg';
+    import image12 from '$lib/assets/img12.jpg';
+    import image13 from '$lib/assets/img13.jpg';
+    import image14 from '$lib/assets/img14.jpg';
+    import image15 from '$lib/assets/img15.jpg';
+    import image16 from '$lib/assets/img16.jpg';
+    import image17 from '$lib/assets/img17.jpg';
+    import image18 from '$lib/assets/img18.jpg';
+    import image19 from '$lib/assets/img19.jpg';
+    import image20 from '$lib/assets/img20.jpg';
+    import image21 from '$lib/assets/img21.jpg';
+    import image22 from '$lib/assets/img22.jpg';
+    import image23 from '$lib/assets/img23.jpg';
+    import image24 from '$lib/assets/img24.jpg';
+    import image25 from '$lib/assets/img25.jpg';
+
+    let images = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13, image14, image15, image16, image17, image18, image19, image20, image21, image22, image23, image24, image25];
+    let currentImage = getRandomImage();
+
+    function getRandomImage() {
+        return images[Math.floor(Math.random() * images.length)];
+    }
+
+    function handleImageClick() {
+        currentImage = getRandomImage();
+    }
 
     function scrollToSection(event, sectionId) {
         event.preventDefault();
@@ -25,7 +63,6 @@
     <nav>
         <div>
             <h2><a href="https://{data.persons.website}">{data.persons.name} {data.persons.surname}</a></h2>
-            <h2><a href="/about">About</a></h2>
         </div>
         <h2><a href="https://fdnd.nl/" target="_blank">FDND</a></h2>
     </nav>
@@ -33,7 +70,12 @@
     <a title="This button gets you to the top of the page" id="goToTop" href="#top">&#x2191;</a>
 
     <section id="top">
-        <a href="https://github.com/{data.persons.github_handle}" target="_blank">gihub {data.persons.github_handle}</a>
+        <a href="https://github.com/{data.persons.github_handle}" target="_blank">Github {data.persons.github_handle}</a>
+        <a href="mailto:kock.rutger@gmail.com">Email</a>
+        <article class="image_gallery">
+            <h2>Ik maak graag foto's</h2>
+            <img src={currentImage} alt="Random image" on:click={handleImageClick} />
+        </article>
     </section>
     
     <section>
@@ -59,6 +101,7 @@
         </article>
     </section>
 </body>
+
 
 <style>
 nav {
@@ -185,6 +228,29 @@ article {
     background-color: #4f4f4f;
 }
 
+.image_gallery {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+    align-items: flex-start; 
+    width: 100%;
+    margin: 2rem 0;
+    padding: 0;
+}
+
+.image_gallery img {
+    max-width: 40vw;
+    max-height: 40vh; 
+    width: auto; 
+    height: auto; 
+    object-fit: contain; 
+}
+
+
+.image_gallery img:hover {
+    cursor: pointer;
+}
+
 @media (min-width: 450px) {
     .sprintsArticle {
     display: grid;
@@ -213,5 +279,6 @@ article {
         overflow-x: hidden;
     }
 }
+
 
 </style>
