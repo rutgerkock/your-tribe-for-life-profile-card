@@ -22,8 +22,11 @@
 
 <body>
     <nav>
-        <h1><a href="#top">Rutger Kock</a></h1>
-        <h1><a href="https://fdnd.nl/" target="_blank">FDND</a></h1>
+        <div>
+            <h2><a href="#top">Rutger Kock</a></h2>
+            <h2><a href="/about">About</a></h2>
+        </div>
+        <h2><a href="https://fdnd.nl/" target="_blank">FDND</a></h2>
     </nav>
 
     <a title="This button gets you to the top of the page" id="goToTop" href="#top">&#x2191;</a>
