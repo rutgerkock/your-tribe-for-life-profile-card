@@ -114,7 +114,8 @@
 <br>
 
 *Vrijdag*
-- Nu pas toegekomen aan data inladen voor mijn eigen visitekaartje, dit voor school geregeld.
+- Nu pas toegekomen aan data inladen voor mijn eigen visitekaartje, dit voor school geregeld. [Zie commit](https://github.com/rutgerkock/your-tribe-for-life-profile-card/commit/9158c02e98572376e02fedd1b92bea6b8b2b792f)
+- Al mijn notities/i-love-web geupdate!
 
 <br>
 <br>
