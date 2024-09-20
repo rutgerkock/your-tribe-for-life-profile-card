@@ -33,10 +33,7 @@
     <a title="This button gets you to the top of the page" id="goToTop" href="#top">&#x2191;</a>
 
     <section id="top">
-        <a href="https://github.com/{data.persons.github_handle}" target="_blank">Github {data.persons.github_handle}</a>
-        <a href="mailto:kock.rutger@gmail.com">Email</a>
-        <article class="image_gallery">            
-        </article>
+        <a href="https://github.com/{data.persons.github_handle}" target="_blank">gihub {data.persons.github_handle}</a>
     </section>
     <section>
         <h1>i-love-web<span class="dot">.</span><span class="red">blog</span></h1>
@@ -186,17 +183,6 @@ article {
 .sprintButton:active {
     background-color: #4f4f4f;
 }
-
-.image_gallery {
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: flex-start;
-    align-items: flex-start; 
-    width: 100%;
-    margin: 2rem 0;
-    padding: 0;
-}
-
 
 @media (min-width: 450px) {
     .sprintsArticle {
