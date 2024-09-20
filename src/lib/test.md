@@ -85,6 +85,7 @@
 - *Hoe werkt data inladen via de whoIsApi ook alweer?*
 - *Hoe los ik problemen met mijn MD op?*
 
+<br>
 
 *Maandag*
 - De feedback van vrijdag verwerkt. [Zie issue](https://github.com/users/rutgerkock/projects/7/views/1?pane=issue&itemId=79718654)
