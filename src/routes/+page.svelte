@@ -2,30 +2,12 @@
     export let data
     import Test from '$lib/test.md';
     import Notes from '$lib/notes.md';
-
-    function scrollToSection(event, sectionId) {
-        event.preventDefault();
-        const container = document.querySelector('.scrollable_container');
-        const target = document.querySelector(sectionId);
-        if (container && target) {
-            const containerRect = container.getBoundingClientRect();
-            const targetRect = target.getBoundingClientRect();
-
-            const scrollTop = targetRect.top - containerRect.top + container.scrollTop - 24;
-
-            container.scrollTo({
-                top: scrollTop,
-                behavior: 'smooth'
-            });
-        }
-    }
 </script>
 
 <body>
     <nav>
         <div>
             <h2><a href="https://{data.persons.website}">{data.persons.name} {data.persons.surname}</a></h2>
-            <h2><a href="/about">About</a></h2>
         </div>
         <h2><a href="https://fdnd.nl/" target="_blank">FDND</a></h2>
     </nav>
@@ -33,28 +15,29 @@
     <a title="This button gets you to the top of the page" id="goToTop" href="#top">&#x2191;</a>
 
     <section id="top">
-        <a href="https://github.com/{data.persons.github_handle}" target="_blank">gihub {data.persons.github_handle}</a>
+        <a href="https://github.com/{data.persons.github_handle}" target="_blank">gihub {data.persons.github_handle}</a>    
     </section>
     <section>
         <h1>i-love-web<span class="dot">.</span><span class="red">blog</span></h1>
         <article class="sprintsArticle">
             <ul class="sprintButtonList">
                 <li><p>Sprints 24/25</p></li>
-                <li><a class="sprintButton" href="#sprint-13" on:click={(e) => scrollToSection(e, '#sprint-13')}>Sprint 13</a></li>
-                <li><a class="sprintButton" href="#sprint-14" on:click={(e) => scrollToSection(e, '#sprint-14')}>Sprint 14</a></li>
-                <li><a class="sprintButton" href="#sprint-15" on:click={(e) => scrollToSection(e, '#sprint-15')}>Sprint 15</a></li>
-                <li><a class="sprintButton" href="#sprint-16" on:click={(e) => scrollToSection(e, '#sprint-16')}>Sprint 16</a></li>
-                <li><a class="sprintButton" href="#sprint-17" on:click={(e) => scrollToSection(e, '#sprint-17')}>Sprint 17</a></li>
-                <li><a class="sprintButton" href="#sprint-18" on:click={(e) => scrollToSection(e, '#sprint-18')}>Sprint 18</a></li>
-                <li><a class="sprintButton" href="#sprint-19" on:click={(e) => scrollToSection(e, '#sprint-19')}>Sprint 19</a></li>
-                <li><a class="sprintButton" href="#sprint-20" on:click={(e) => scrollToSection(e, '#sprint-20')}>Sprint 20</a></li>                
+                <li><a class="sprintButton" href="#sprint-13">Sprint 13</a></li>
+                <li><a class="sprintButton" href="#sprint-14">Sprint 14</a></li>
+                <li><a class="sprintButton" href="#sprint-15">Sprint 15</a></li>
+                <li><a class="sprintButton" href="#sprint-16">Sprint 16</a></li>
+                <li><a class="sprintButton" href="#sprint-17">Sprint 17</a></li>
+                <li><a class="sprintButton" href="#sprint-18">Sprint 18</a></li>
+                <li><a class="sprintButton" href="#sprint-19">Sprint 19</a></li>
+                <li><a class="sprintButton" href="#sprint-20">Sprint 20</a></li>                
             </ul>
             <div class="scrollable_container">
                 <Test />
             </div>
-            <div>
+            <div class="scrollabel_container">
                 <Notes />            
             </div>
+            
         </article>
     </section>
 </body>
@@ -82,6 +65,7 @@ body {
     scroll-snap-type: y mandatory; 
     overflow-x: hidden;
     overflow-y: scroll;
+    scroll-padding-top: 5rem;
 }
 
 section {

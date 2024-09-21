@@ -7,9 +7,7 @@
   let isLoaded = false;
 
   onMount(() => {
-    setTimeout(() => {
       isLoaded = true;
-    }, 1200); 
   });
 </script>
 
@@ -72,3 +70,11 @@
     } 
   }
 </style>
+
+<noscript>
+  <style>
+    .loader {
+      display: none !important; 
+    }
+  </style>
+</noscript>
