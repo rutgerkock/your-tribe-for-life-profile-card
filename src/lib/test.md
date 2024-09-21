@@ -121,6 +121,7 @@
 <br>
 
 *Retrospect*
+
 3.1.1: het projectboard/ de issues
 3.1.2: snippets van code die je zelf gebruikt hebt/ bronnen verwerken (mdn, webstandaarden, svelte, gozillablog, mastodon, w3c, webkit blog, chrome developer)
 3.1.3: usertest/ performace test/ accesibility test/ etc.
