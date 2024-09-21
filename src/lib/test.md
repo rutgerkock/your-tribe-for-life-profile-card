@@ -144,11 +144,12 @@
 
 <br>
 
-Beginnen met uitgebreid project board (Hoeveelheid bij taken, DOD's, user stories, MoSCoW)
-Elkaar voorzien van duidelijke feedback en pull-requests serieus nemen (Feedback op code) 
-Figma bestand opzetten met styleguide (fonts/kleuren enz.) VOOR we beginnen met programmeren
-Communicatie was best heel aardig maar kan altijd beter 
-Standup op ma-wo-vrij had serieuzer moeten zijn 
+*Verbeterpunten*
+- Beginnen met uitgebreid project board (Hoeveelheid bij taken, DOD's, user stories, MoSCoW)
+- Elkaar voorzien van duidelijke feedback en pull-requests serieus nemen (Feedback op code) 
+- Figma bestand opzetten met styleguide (fonts/kleuren enz.) VOOR we beginnen met programmeren
+- Communicatie was best heel aardig maar kan altijd beter 
+- Standup op ma-wo-vrij had serieuzer moeten zijn 
 
 Resultaat: Zeer tevreden
 
