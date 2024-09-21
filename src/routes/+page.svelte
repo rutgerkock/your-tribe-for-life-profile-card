@@ -37,7 +37,6 @@
             <div class="scrollabel_container">
                 <Notes />            
             </div>
-            
         </article>
     </section>
 </body>

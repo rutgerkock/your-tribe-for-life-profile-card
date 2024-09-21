@@ -341,3 +341,86 @@ Zo heb je als team door wat er moet gebeuren en krijg je een goed beeld van je t
 - **Refactored code**: gestructureerde code (conventies), semantiek, geen commented code, geen console.log(), goede tabs
 - **readme.md**: kenmerken, live link, screenshot (s?),  Instructies (uitleg over gebruik), installatiehandleiding, CMS uitleg, huisstijl (of waar die te vinden is), bijdragen? (Hints voor volgende dev-teams), gebruikte bronnen.
 - Live zetten: Github pages, Vercel, Netlify, ondrender.
+
+
+<br>
+
+**VRIJDAG: 20 sept **
+
+**Niveaumatrix**
+
+1 Methodisch handelen
+
+**3.1.1**
+
+*Richt in overleg projecten in volgens de development-lifecycle.*
+
+Projectboard inrichten via development-lifecycle. Student richt het projectboard volledig in en maakt ook gebruik van labels
+
+**3.1.2\
+***Combineert onderbouwd principes, standaarden en best-practices op het gebied van frontend design en development om een oplossing voor een opdrachtgever te realiseren.*\
+Je gebruikt de beste technieken voor het realiseren van een eindopdracht. Daarmee combineer je de beste principes en standaarden van frontend development en kunt dit onderbouwen, waarom je bepaalde keuzes hebt gemaakt. Bronnen kun je hierbij vermelden
+
+**3.1.3\
+***Houdt rekening met belangen van eindgebruikers, valideert door middel van testen en verwerkt testresultaten.***\
+**Je houdt vanaf het begin rekening met de belangen van de eindgebruiker, dit zet je voorop. Dit kun je doen door middel door testen uit te voeren en de resultaten te verwerken. Denk hierbij aan Usertests en Lightroom tests (performance)**\
+**
+
+2 Samenwerken
+
+**3.2.1**
+
+*Organiseert samenwerking en signaleert verbeterpunten op gebied van efficiëntie en effectiviteit.***\
+**Je kunt samenwerking organiseren door verschillende middelen te gebruiken denk aan: projectboard, teamcanvas, issues, branches, pull requests en kampvuur sessies. Je kunt verbeterpunten analyseren door bijvoorbeeld een kampvuursessie te gebruiken.**\
+(**Je organiseert samenwerking d.m.v. een Project board in te richten en door issues in te schieten en pull request te gebruiken.)
+
+**3.2.2\
+***Draagt verantwoording voor eigen resultaten, benoemt teamresultaten en informeert belanghebbenden over de voortgang.*\
+Je kunt eigen verantwoording brengen over je eigen resultaten, dit kun je bijvoorbeeld toe lichten in je issues. Je kunt teamresultaten benoemen, dit kun je doen door feedback te geven op pullrequest of een teamgenoot aan te spreken, wanneer die zijn taken niet na komt. Je informeert belanghebbende over de voortgang, dit kun je doen door een standup te houden.
+
+**3.2.3\
+***Kan omgaan met diversiteit binnen teams en handelt respectvol naar anderen.*
+
+Je kan omgaan met verschillende niveaus binnen een team en behandelt iemand met respect. Hierbij kun je denken aan een teamcanvas, dit kun je gebruiken om diversiteit in kaart te brengen, in bijvoorbeeld de vaardigheden van het team.
+
+3 Communiceren
+
+**3.3.1\
+***Luistert, vat samen, verifieert en vraagt door tot een boodschap helder is.\
+*Dit kan een briefing zijn, ze luistert, vat samen en stuurt de debriefing op, hiermee vraag je door tot een boodschap helder is.
+
+**3.3.2**
+
+*Kan ontwerpkeuzes, eigen ideeën en producten overtuigend overbrengen aan belanghebbenden.\
+Je* legt uit waarom je voor bepaalde ontwerp keuzes en code keuzes hebt gebruikt en kunt dit overtuigend overbrengen, bijvoorbeeld op kleur, met een accessibilty test.
+
+**3.3.3**\
+*Documenteert op professionele wijze en bespreekt voortgang binnen het team.*
+
+Je documenteert d.m.v. commits, issues en projectboard dit doe je op professionele wijze en bespreekt dit met je team.
+
+4 Probleemoplossend vermogen
+
+**3.4.1**\
+*Analyseert een vraag, signaleert knelpunten en kiest onderbouwd een oplossingsrichting.\
+*
+
+**3.4.2**\
+*Schetst om gedachten en processen te verkennen, abstracte begrippen over te brengen en de oplossingsrichting inzichtelijk te maken.*
+
+**3.4.3**\
+*Bedenkt en implementeert complexe frontend code en gebruikt daarbij tools en frameworks.*
+
+5 Lerend bermogen
+
+**3.5.1**\
+*Volgt aangeboden internationale ontwikkelingen in het vakgebied en maakt onder begeleiding keuzes over eigen ontwikkeling.\
+*
+
+**3.5.2**\
+*Maakt aangeboden en zelf gevonden materie eigen, gebruikt dit bij leertaken, deelt ervaring binnen de tribe en leert van anderen.*
+
+**3.5.3 **
+
+*Kent eigen capaciteiten en beperkingen, waardeert het vermogen van anderen en maakt dit bespreekbaar.\
+*Je kent je eigen sterke en zwakke punten. Je waardeert het vermogen en kunt dit bespreken, denk aan teamcanvas.
