@@ -122,25 +122,25 @@
 
 *Retrospect*
 
-3.1.1: het projectboard/ de issues
-3.1.2: snippets van code die je zelf gebruikt hebt/ bronnen verwerken (mdn, webstandaarden, svelte, gozillablog, mastodon, w3c, webkit blog, chrome developer)
-3.1.3: usertest/ performace test/ accesibility test/ etc.
+- 3.1.1: het projectboard/ de issues
+- 3.1.2: snippets van code die je zelf gebruikt hebt/ bronnen verwerken (mdn, webstandaarden, svelte, gozillablog, mastodon, w3c, webkit blog, chrome developer)
+- 3.1.3: usertest/ performace test/ accesibility test/ etc.
 
-3.2.1: kampvuur/ teamcanvas/ projectboard
-3.2.2: projectboard met issues/ kampvuursessie
-3.2.3: uitleg wie iedereen is en hoe je met iedereen omgaat/ teamcanvas is de introductie hierop/ sprint review
+- 3.2.1: kampvuur/ teamcanvas/ projectboard
+- 3.2.2: projectboard met issues/ kampvuursessie
+- 3.2.3: uitleg wie iedereen is en hoe je met iedereen omgaat/ teamcanvas is de introductie hierop/ sprint review
 
-3.3.1: briefing notities/ debriefing/ etc.
-3.3.2: readme/ oplevering/ uitleg met hoe alles werkt/ bereid om vragen te beantwoorden.
-3.3.3: issues met uitleg/ projectboard/ readme/ pullrequest/ etc.
+- 3.3.1: briefing notities/ debriefing/ etc.
+- 3.3.2: readme/ oplevering/ uitleg met hoe alles werkt/ bereid om vragen te beantwoorden.
+- 3.3.3: issues met uitleg/ projectboard/ readme/ pullrequest/ etc.
 
-3.4.1: leervragen/ briefing/ debriefing
-3.4.2: lofi/hifi schetsen/ breakdown schets/ wireflow/ wireframe
-3.4.3: code/ bronnen/ issues/ linken naar code
+- 3.4.1: leervragen/ briefing/ debriefing
+- 3.4.2: lofi/hifi schetsen/ breakdown schets/ wireflow/ wireframe
+- 3.4.3: code/ bronnen/ issues/ linken naar code
 
-3.5.1: bronnen verwerken (mdn, webstandaarden, svelte, gozillablog, mastodon, w3c, webkit blog, chrome developer, we love web)/ journal bijhouden haha/
-3.5.2: digital garden/ I love web/ code snippets/ etc.
-3.5.3: zelf evaluatie/ I love web
+- 3.5.1: bronnen verwerken (mdn, webstandaarden, svelte, gozillablog, mastodon, w3c, webkit blog, chrome developer, we love web)/ journal bijhouden haha/
+- 3.5.2: digital garden/ I love web/ code snippets/ etc.
+- 3.5.3: zelf evaluatie/ I love web
 
 <br>
 
