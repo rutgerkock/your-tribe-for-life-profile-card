@@ -234,7 +234,6 @@ article {
 
 .image_section li {
     padding: 1rem 0;
-    scroll-snap-align: start;
 }
 
 .image_section li button {
