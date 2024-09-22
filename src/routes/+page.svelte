@@ -39,6 +39,61 @@
             </div>
         </article>
     </section>
+    <section class="image_section">
+        <h1>foto<span class="dot">.</span><span class="red">albums</span></h1>
+        <ul>
+            <li>
+                <i>Zandvoort</i>
+                <button popovertarget="my-popover" class="image_container">
+                    <enhanced:img src="/static/images/img1.jpg" alt="An alt text"
+                    class="main_images"/>
+                </button>
+                <div id="my-popover" class="popover" popover>
+                    <enhanced:img src="/static/images/img1.jpg" alt="An alt text"/>
+                    <enhanced:img src="/static/images/img2.jpg" alt="An alt text"/>
+                    <enhanced:img src="/static/images/img3.jpg" alt="An alt text"/>
+                    <enhanced:img src="/static/images/img4.jpg" alt="An alt text"/>
+                    <enhanced:img src="/static/images/img5.jpg" alt="An alt text"/>
+                </div>
+            </li>
+            <li>
+                <a href="/zugspitze">
+                    <i>Zugspitze</i>
+                    <div class="image_container">
+                        <enhanced:img src="/static/images/img3.jpg" alt="An alt text"
+                        class="main_images"/>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="/wheels2024">
+                    <i>Wheels 2024</i>
+                    <div class="image_container">
+                        <enhanced:img src="/static/images/img2.jpg" alt="An alt text"
+                        class="main_images"/>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="/bmw2002">
+                    <i>BMW 2002</i>
+                    <div class="image_container">
+                        <enhanced:img src="/static/images/img4.jpg" alt="An alt text"
+                        class="main_images"/>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="/porschemuseum">
+                    <i>Porsche Museum</i>
+                    <div class="image_container">
+                        <enhanced:img src="/static/images/img5.jpg" alt="An alt text"
+                        class="main_images"/>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </section>
 </body>
 
 <style>
@@ -88,7 +143,7 @@ section h1 {
     top: 0.5em;
     z-index: 998;
     margin-bottom: 1rem;
-    width: 100%;
+    width: 100vw;
 }
 
 article {
@@ -167,6 +222,62 @@ article {
     background-color: #4f4f4f;
 }
 
+.image_section ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+.image_section li {
+    padding: 1rem 0;
+    scroll-snap-align: start;
+}
+
+.image_section li button {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+
+.image_container {
+    position: relative;
+    overflow: hidden;
+    width: 100%; 
+    height: auto; 
+}
+
+.image_section .main_images {
+    object-fit: cover;
+    width: 100%; 
+    height: auto;
+    aspect-ratio: 3/2;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image_section .main_images:hover {
+    transform: scale(1.5);
+}
+
+.popover {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: var(--background-color);
+    border: none;
+}
+
+.popover img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
 @media (min-width: 450px) {
     .sprintsArticle {
     display: grid;
@@ -193,6 +304,11 @@ article {
         min-width: 10.5rem;
         height: 32rem;
         overflow-x: hidden;
+    }
+
+    .image_section ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
     }
 }
 

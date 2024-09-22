@@ -24,9 +24,14 @@ html {
     line-height: 1.5;
     font-weight: 200;
 }
+
 a {
     color: var(--blue-color);
     text-decoration: none;
+}
+
+i {
+    color: var(--text-color);
 }
 
 .red {color: var(--red-color);}
@@ -74,8 +79,6 @@ nav div {
     flex-direction: row;
     gap: 3rem;
 }
-
-
 
 @media (prefers-color-scheme: light) {
     :root {
