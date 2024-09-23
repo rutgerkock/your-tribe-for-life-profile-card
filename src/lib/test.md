@@ -159,6 +159,18 @@ Resultaat: Zeer tevreden
 ## Sprint 14
 ### Week 1
 *Maandag*
+- Vandaag zijn we begonnen met ons nieuwe project, bieb in bloei. We hebben met onze groep uitgezocht in welke github we moeten werken. [Zie repo (1)](https://github.com/rutgerkock/buurtcampus-oost/tree/release-candidate-bieb-in-bloei) 
+[Zie projectboard (2)](https://github.com/orgs/fdnd-agency/projects/3/views/1)
+- Ook hebben we een begin gemaakt aan de debriefing en hebben we ons team canvas gemaakt 
+[debriefing (1)](https://github.com/orgs/fdnd-agency/projects/3/views/1?pane=issue&itemId=80740722) 
+[Team canvas (2)](https://github.com/orgs/fdnd-agency/projects/3/views/1?pane=issue&itemId=80739668)
+
+<br>
+
+- Ook heb ik zelf gewerkt aan een aantal punten rondom mijn i-love-web website, waar je nu op zit. Hier heb ik ervoor gezorgd dat de pagina werkt zonder JS, dit was eerst niet het geval [Issue nog schrijven](baguette). Ook heb ik ervoor gezorgd dat de knoppen waarmee je door mijn blog navigeerd functioneren zonder JS, aan de hand van scroll-padding/margin, dat was een tip van Krijn.
+- Verder heb ik afbeeldingen toegevoegd als enhanced:img waardoor ze erg snel laden. [Issue nog schrijven](baguette)
+
+<br>
 
 *Dinsdag*
 

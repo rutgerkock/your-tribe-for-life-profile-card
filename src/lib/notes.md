@@ -424,3 +424,15 @@ Je documenteert d.m.v. commits, issues en projectboard dit doe je op professione
 
 *Kent eigen capaciteiten en beperkingen, waardeert het vermogen van anderen en maakt dit bespreekbaar.\
 *Je kent je eigen sterke en zwakke punten. Je waardeert het vermogen en kunt dit bespreken, denk aan teamcanvas.
+
+
+<br>
+
+# Sprint 14 - Lose Your Head, over…??!>!?!
+
+Jamstack >  Jamstack.org
+
+JAM: JavaScript, API's en Markdown
+
+Site generator
+Headless CMS: Sve
