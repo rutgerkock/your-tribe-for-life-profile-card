@@ -167,8 +167,8 @@ Resultaat: Zeer tevreden
 
 <br>
 
-- Ook heb ik zelf gewerkt aan een aantal punten rondom mijn i-love-web website, waar je nu op zit. Hier heb ik ervoor gezorgd dat de pagina werkt zonder JS, dit was eerst niet het geval [Zie code](https://github.com/rutgerkock/your-tribe-for-life-profile-card/blob/main/src/routes/%2Blayout.svelte#L74-L80). Ook heb ik ervoor gezorgd dat de knoppen waarmee je door mijn blog navigeerd functioneren zonder JS, aan de hand van scroll-padding/margin, dat was een tip van Krijn.
-- Verder heb ik afbeeldingen toegevoegd als enhanced:img waardoor ze erg snel laden. [Zie code (1)](https://github.com/rutgerkock/your-tribe-for-life-profile-card/blob/main/src/routes/%2Bpage.svelte#L42-L96) [Zie svelte docs over images (2)](https://kit.svelte.dev/docs/images#sveltejs-enhanced-img)
+- Ook heb ik zelf gewerkt aan een aantal punten rondom mijn i-love-web website, waar je nu op zit. Hier heb ik ervoor gezorgd dat de pagina werkt zonder JS, dit was eerst niet het geval [Zie code](https://github.com/rutgerkock/your-tribe-for-life-profile-card/blob/main/src/routes/%2Blayout.svelte#L74-L80). Ook heb ik ervoor gezorgd dat de knoppen waarmee je door mijn blog navigeerd functioneren zonder JS, aan de hand van scroll-padding/margin, dat was een tip van Krijn. [Zie code](https://github.com/rutgerkock/your-tribe-for-life-profile-card/blob/dd7cf0e7f36bed1a9ec6b983e8c8a63250c7172b/src/routes/%2Bpage.svelte#L122)
+- Verder heb ik afbeeldingen toegevoegd als enhanced:img waardoor ze erg snel laden. [Zie code](https://github.com/rutgerkock/your-tribe-for-life-profile-card/blob/main/src/routes/%2Bpage.svelte#L42-L96) [Zie svelte docs over images](https://kit.svelte.dev/docs/images#sveltejs-enhanced-img)
 - Ook heb ik [Vercel-speedinsights](https://vercel.com/docs/speed-insights) toegevoegd aan mijn website zodat ik aan de hand van informatie van gebruikers in de gaten kan houden waar ik dingen kan verbeteren op het gebied van snelheid, hier zag een grote stap voorruit na het toevoegen van de enhanced:img i.p.v. img.
 
 <br>
