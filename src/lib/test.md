@@ -169,10 +169,16 @@ Resultaat: Zeer tevreden
 
 - Ook heb ik zelf gewerkt aan een aantal punten rondom mijn i-love-web website, waar je nu op zit. Hier heb ik ervoor gezorgd dat de pagina werkt zonder JS, dit was eerst niet het geval [Issue nog schrijven](baguette). Ook heb ik ervoor gezorgd dat de knoppen waarmee je door mijn blog navigeerd functioneren zonder JS, aan de hand van scroll-padding/margin, dat was een tip van Krijn.
 - Verder heb ik afbeeldingen toegevoegd als enhanced:img waardoor ze erg snel laden. [Issue nog schrijven](baguette)
+- Ook heb ik [Vercel-speedinsights](https://vercel.com/docs/speed-insights) toegevoegd aan mijn website zodat ik aan de hand van informatie van gebruikers in de gaten kan houden waar ik dingen kan verbeteren op het gebied van snelheid, hier zag een grote stap voorruit na het toevoegen van de enhanced:img i.p.v. img.
 
 <br>
 
 *Dinsdag*
+- Vandaag onze briefing met Joost gedaan omdat Mariska niet beschikbaar was op korte termijn. Dit hebben we online gedaan, aan de hand hiervan hebben we een debriefing geschreven en deze naar Mariska opgestuurd. [Zie issue](https://github.com/orgs/fdnd-agency/projects/3/views/1?layout=table&pane=issue&itemId=80740722)
+
+- vervolgens hebben we met ons groepje de opdracht verdeeld in Epics -> Stories -> User Stories -> Taken. Ook hebben we aan alle taken labels meegegeven voor ons overzicht (MoSCow, Gewicht, DLC, enz.) [Zie issue/project board](https://github.com/orgs/fdnd-agency/projects/3/views/1?layout=table&pane=issue&itemId=80741804)
+
+<br>
 
 *Woensdag*
 
