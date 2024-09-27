@@ -25,7 +25,7 @@
     <li>
         <i>{folder.name}</i>
         <button popovertarget={`popover-${folder.name}`} class="image_container">
-            <img src={folder.images[0]} alt={folder.name} class="main_images" loading="eager"/>
+            <img src={folder.images[0]} alt={folder.name} class="main_images" loading="lazy"/>
         </button>
         <div id={`popover-${folder.name}`} class="popover" popover>
             {#each folder.images as image}
