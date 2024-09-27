@@ -28,6 +28,7 @@ html {
 a {
     color: var(--blue-color);
     text-decoration: none;
+    transition: 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 i {
@@ -74,8 +75,9 @@ nav h2 a {
     color: var(--text-color);
 }
 
-nav div a:hover {
+nav a:hover {
     color: var(--yellow-color);
+
 }
 
 nav div a {
