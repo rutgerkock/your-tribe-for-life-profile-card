@@ -24,11 +24,13 @@
         <button popovertarget={`popover-${folder.name}`} class="image_container">
             <img src={generateImagePaths(folder)[0]} alt={folder.name} class="main_images" loading="eager"/>
         </button>
-        <div id={`popover-${folder.name}`} class="popover" popover>
-            {#each generateImagePaths(folder) as image}
-                <img src={image} alt={folder.name} loading="lazy"/>
-            {/each}
-        </div>
+        <button popovertarget={`popover-${folder.name}`} title="Close">
+            <div id={`popover-${folder.name}`} class="popover" popover>
+                    {#each generateImagePaths(folder) as image}
+                    <img src={image} alt={folder.name} loading="lazy"/>
+                {/each}
+            </div>
+        </button>
     </li>
 {/each}
 
@@ -76,5 +78,6 @@
         width: 100%;
         height: 100%;
         object-fit: contain;
+        margin-bottom: 1rem;
     }
 </style>
