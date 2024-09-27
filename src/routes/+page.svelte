@@ -116,6 +116,7 @@ section h1 {
     position: sticky;
     background-color: var(--background-color);
     top: 0em;
+    padding-top: 0.5em;
     z-index: 998;
     margin-bottom: 1rem;
     width: 100vw;
