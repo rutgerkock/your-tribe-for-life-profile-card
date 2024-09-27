@@ -76,14 +76,14 @@
     }
 
     .popover img {
-        width: 100%;
+        width: 90%;
         object-fit: contain;
         margin-bottom: 1rem;
     }
 
     @media (min-width: 450px) {
         .popover img {
-            height: 100%;
+            height: 90%;
         }
     }
 </style>
