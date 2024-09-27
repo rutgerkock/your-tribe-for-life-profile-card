@@ -22,7 +22,9 @@
     <nav>
         <h2><a href="https://{data.persons.website}">{data.persons.name} {data.persons.surname}</a></h2>
         <div>
-            <a href="https://www.google.nl/maps/place/Utrecht/@52.2254578,4.9064437,38491m/data=!3m1!1e3!4m6!3m5!1s0x47c66f4339d32d37:0xd6c8fc4c19af4ae9!8m2!3d52.0907374!4d5.1214201!16zL20vMGQ5czU?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D"><h3>Utrecht</h3></a>
+            <a href="https://www.google.com/maps/dir/?api=1&destination=Utrecht" target="_blank">
+                <h3>Utrecht</h3>
+            </a>
             <p>{#if weather}{weather.main.feels_like.toFixed(1)}°C{/if} | {#if weather?.rain}{weather.rain['1h'].toFixed(1)} mm/h{/if}  </p>
         </div>
     </nav>
