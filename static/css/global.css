@@ -76,8 +76,12 @@ nav h2 a {
 
 nav div {
     display: flex;
-    flex-direction: row;
-    gap: 3rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav div p {
+    font-size: 12px;
 }
 
 @media (prefers-color-scheme: light) {
