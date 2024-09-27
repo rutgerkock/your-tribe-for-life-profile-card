@@ -76,7 +76,6 @@
 
     .popover img {
         width: 100%;
-        height: 100%;
         object-fit: contain;
         margin-bottom: 1rem;
     }
