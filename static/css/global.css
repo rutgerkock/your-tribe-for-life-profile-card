@@ -77,7 +77,6 @@ nav h2 a {
 
 nav a:hover {
     color: var(--yellow-color);
-
 }
 
 nav div a {
@@ -121,16 +120,7 @@ nav div p {
 }
 
 @media (min-width: 450px) {
-    ::-webkit-scrollbar {
-        width: 12px; 
-    }
-    
-    ::-webkit-scrollbar-thumb {
-        background-color: var(--border-color); 
-        border-radius: 10px;
-    }
-    
-    ::-webkit-scrollbar-thumb:hover {
-        background-color: var(--yellow-color); 
+    nav div {
+        z-index: 998;
     }
 }
