@@ -22,7 +22,6 @@ const doc = unified()
   .processSync(fileContent)
   .toString();
 
-console.log(doc);
 
 // Function to convert markdown string to HTML
 async function markdownToHtml(string) {

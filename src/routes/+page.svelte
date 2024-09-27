@@ -3,6 +3,7 @@
     import Test from '$lib/test.md';
     import Notes from '$lib/notes.md';
     import { onMount } from 'svelte';
+    import Images from '$lib/images.svelte';
 
     let city = 'Utrecht';
     let weather;
@@ -60,57 +61,8 @@
     <section class="image_section">
         <h1>foto<span class="dot">.</span><span class="red">albums</span></h1>
         <ul>
-            <li>
-                <i>Zandvoort</i>
-                <button popovertarget="my-popover" class="image_container">
-                    <enhanced:img src="/static/images/img1.jpg" alt="An alt text"
-                    class="main_images"/>
-                </button>
-                <div id="my-popover" class="popover" popover>
-                    <enhanced:img src="/static/images/img1.jpg" alt="An alt text"/>
-                    <enhanced:img src="/static/images/img2.jpg" alt="An alt text"/>
-                    <enhanced:img src="/static/images/img3.jpg" alt="An alt text"/>
-                    <enhanced:img src="/static/images/img4.jpg" alt="An alt text"/>
-                    <enhanced:img src="/static/images/img5.jpg" alt="An alt text"/>
-                </div>
-            </li>
-            <li>
-                <a href="/zugspitze">
-                    <i>Zugspitze</i>
-                    <div class="image_container">
-                        <enhanced:img src="/static/images/img3.jpg" alt="An alt text"
-                        class="main_images"/>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a href="/wheels2024">
-                    <i>Wheels 2024</i>
-                    <div class="image_container">
-                        <enhanced:img src="/static/images/img2.jpg" alt="An alt text"
-                        class="main_images"/>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a href="/bmw2002">
-                    <i>BMW 2002</i>
-                    <div class="image_container">
-                        <enhanced:img src="/static/images/img4.jpg" alt="An alt text"
-                        class="main_images"/>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a href="/porschemuseum">
-                    <i>Porsche Museum</i>
-                    <div class="image_container">
-                        <enhanced:img src="/static/images/img5.jpg" alt="An alt text"
-                        class="main_images"/>
-                    </div>
-                </a>
-            </li>
-        </ul>
+            <Images />
+        </ul>   
     </section>
 </body>
 
@@ -134,10 +86,8 @@ body {
     margin: 0;
     width: 100vw;
     height: 100vh; 
-    scroll-snap-type: y mandatory; 
     overflow-x: hidden;
     overflow-y: scroll;
-    scroll-padding-top: 5rem;
 }
 
 section {
@@ -145,7 +95,6 @@ section {
     display: flex;
     flex-direction: column;
     padding: 5rem 7vw;
-    scroll-snap-align: start; 
 }
 
 
@@ -250,49 +199,7 @@ article {
     max-width: 100%;
 }
 
-.image_section li {
-    padding: 1rem 0;
-}
 
-.image_section li button {
-    border: none;
-    padding: 0;
-    background-color: transparent;
-}
-
-.image_container {
-    position: relative;
-    overflow: hidden;
-    width: 100%; 
-    height: auto; 
-}
-
-.image_section .main_images {
-    object-fit: cover;
-    width: 100%; 
-    height: auto;
-    aspect-ratio: 3/2;
-    border-radius: 4px;
-    transition: transform 0.3s ease-in-out;
-}
-
-.image_section .main_images:hover {
-    transform: scale(1.5);
-}
-
-.popover {
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    background-color: var(--background-color);
-    border: none;
-}
-
-.popover img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
 
 
 @media (min-width: 450px) {
@@ -326,6 +233,17 @@ article {
     .image_section ul {
         display: grid;
         grid-template-columns: repeat(3, 1fr); 
+    }
+
+    body {
+        scroll-snap-type: y mandatory; 
+        overflow-x: hidden;
+        overflow-y: scroll;
+        scroll-padding-top: 5rem;
+    }
+
+    section {
+        scroll-snap-align: start; 
     }
 }
 </style>

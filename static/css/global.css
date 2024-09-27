@@ -74,6 +74,27 @@ nav h2 a {
     color: var(--text-color);
 }
 
+nav div a:hover {
+    color: var(--yellow-color);
+}
+
+nav div a {
+    display: inline-flex; 
+    align-items: center; 
+}
+
+nav div a::before {
+    display: inline-block;
+    content: '';
+    background-image: url('/images/icons/map_light.svg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    margin-right: .5rem;
+    vertical-align: middle;
+}
+
 nav div {
     display: flex;
     flex-direction: column;
