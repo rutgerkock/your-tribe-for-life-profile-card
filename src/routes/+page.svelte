@@ -1,7 +1,22 @@
 <script>
-    export let data
+    export let data;
     import Test from '$lib/test.md';
     import Notes from '$lib/notes.md';
+    import { onMount } from 'svelte';
+
+    let city = 'Utrecht';
+    let weather;
+
+    async function getWeather() {
+        const res = await fetch(
+            `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${import.meta.env.VITE_OPENWEATHER_API_KEY}&units=metric`
+        );
+        weather = await res.json();
+        weather = weather;
+    }
+    onMount(() => {
+        getWeather();
+    });
 </script>
 
 <body>
@@ -16,6 +31,7 @@
 
     <section id="top">
         <a href="https://github.com/{data.persons.github_handle}" target="_blank">gihub {data.persons.github_handle}</a>    
+        <p>Temperature: {#if weather}{weather.main.temp.toFixed(1)}°C{/if}</p>
     </section>
     <section>
         <h1>i-love-web<span class="dot">.</span><span class="red">blog</span></h1>
