@@ -30,7 +30,16 @@
 
     <section id="top">
         <a href="https://github.com/{data.persons.github_handle}" target="_blank">gihub {data.persons.github_handle}</a>    
-        <p>Temperature: {#if weather}{weather.main.temp.toFixed(1)}°C{/if}</p>
+        <br>
+        <hr>
+        <br>
+        <p>Locatie: {#if weather}{weather.name}{/if}</p>
+        <p>Temperatuur: {#if weather}{weather.main.temp.toFixed(1)}°C{/if}</p>
+        <p>Gevoelstemperatuur: {#if weather}{weather.main.feels_like.toFixed(1)}°C{/if}</p>
+        <p>Regen verwachting: {#if weather?.rain}{weather.rain['1h'].toFixed(1)} mm/h{/if}</p>
+        <p>Laatste update: {#if weather}{new Date(weather.dt * 1000).toLocaleTimeString('nl-NL', { hour: '2-digit', minute: '2-digit' })}{/if}</p>
+        
+        
     </section>
     <section>
         <h1>i-love-web<span class="dot">.</span><span class="red">blog</span></h1>
