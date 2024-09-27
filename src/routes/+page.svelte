@@ -10,7 +10,7 @@
 
     async function getWeather() {
         const res = await fetch(
-            `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=52d2a223715e49a67159446b130d4482&units=metric`
+            `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=52d2a223715e49a67159446b130d4482&lang=nl&units=metric`
         );
         weather = await res.json();
     }
@@ -26,7 +26,13 @@
             <a href="https://www.google.com/maps/dir/?api=1&destination=Utrecht" target="_blank">
                 <h3>Utrecht</h3>
             </a>
-            <p>{#if weather}{weather.main.feels_like.toFixed(1)}°C{/if} | {#if weather?.rain}{weather.rain['1h'].toFixed(1)} mm/h{/if}  </p>
+            <p>
+                {#if weather}
+                    {weather.main.temp.toFixed(1)}°C | 
+                    {weather.weather && weather.weather.length > 0 ? weather.weather[0].description : 'No description available'}
+                {/if}
+            </p>
+            
         </div>
     </nav>
 
@@ -88,6 +94,7 @@ body {
     height: 100vh; 
     overflow-x: hidden;
     overflow-y: scroll;
+    scroll-padding-top: 5rem;
 }
 
 section {
@@ -239,7 +246,6 @@ article {
         scroll-snap-type: y mandatory; 
         overflow-x: hidden;
         overflow-y: scroll;
-        scroll-padding-top: 5rem;
     }
 
     section {
