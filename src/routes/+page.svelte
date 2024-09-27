@@ -79,6 +79,7 @@ nav {
     position: fixed;
     background-color: var(--background-color);
     width: 100%;
+    max-height: 4rem;
     padding: 1rem 7vw;
     z-index: 998;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
