@@ -12,7 +12,7 @@
     function generateImagePaths(folder) {
         let images = [];
         for (let i = 1; i <= folder.totalImages; i++) {
-            images.push(`${folder.name.toLowerCase().replace(/\s+/g, '')}/img${i}.jpg`);
+            images.push(`${folder.name.toLowerCase().replace(/\s+/g, '')}/img${i}.jpg?enh`);
         }
         return images;
     }
@@ -23,11 +23,18 @@
     <li>
         <i>{folder.name}</i>
         <button popovertarget={`popover-${folder.name}`} class="image_container">
-            <img src={`/images/${generateImagePaths(folder)[0]}`} alt={folder.name} class="main_images" loading="eager"/>
+            <img 
+                src={`/images/${generateImagePaths(folder)[0]}`} 
+                alt={folder.name} 
+                class="main_images" 
+                loading="eager" 
+                srcset={`/images/${generateImagePaths(folder)[0]} 1x, /images/${generateImagePaths(folder)[0]} 2x`} 
+                sizes="(max-width: 600px) 100vw, (min-width: 601px) 50vw"
+            />
         </button>
         <button popovertarget={`popover-${folder.name}`} title="Close">
             <div id={`popover-${folder.name}`} class="popover" popover>
-                    {#each generateImagePaths(folder) as image}
+                {#each generateImagePaths(folder) as image}
                     <img src={`/images/${image}`} alt={folder.name} loading="lazy"/>
                 {/each}
             </div>
