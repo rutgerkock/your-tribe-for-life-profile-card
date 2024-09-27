@@ -1,40 +1,39 @@
 <script>
+    
     const folders = [
-        { name: 'zandvoort', totalImages: 22 },
+        { name: 'Zandvoort', totalImages: 22 },
         { name: 'Zugspitze', totalImages: 16 }, 
         { name: 'Wheels 2024', totalImages: 59 }, 
         { name: 'Porsche Museum', totalImages: 16 }, 
         { name: 'BMW 2002', totalImages: 16 }
-    ];
 
-    const folderImages = folders.map(folder => ({
-        name: folder.name,
-        images: generateImagePaths(folder)
-    }));
+    ];
 
     function generateImagePaths(folder) {
         let images = [];
         for (let i = 1; i <= folder.totalImages; i++) {
-            images.push(`/images/${folder.name.toLowerCase().replace(/\s+/g, '')}/img${i}.jpg`);
+            images.push(`${folder.name.toLowerCase().replace(/\s+/g, '')}/img${i}.jpg`);
         }
         return images;
     }
+
 </script>
 
-{#each folderImages as folder}
+{#each folders as folder}
     <li>
         <i>{folder.name}</i>
         <button popovertarget={`popover-${folder.name}`} class="image_container">
-            <img src={folder.images[0]} alt={folder.name} class="main_images" loading="lazy"/>
+            <img src={`/images/${generateImagePaths(folder)[0]}`} alt={folder.name} class="main_images" loading="eager"/>
         </button>
-        <div id={`popover-${folder.name}`} class="popover" popover>
-            {#each folder.images as image}
-                <img src={image} alt={folder.name} loading="lazy"/>
-            {/each}
-        </div>
+        <button popovertarget={`popover-${folder.name}`} title="Close">
+            <div id={`popover-${folder.name}`} class="popover" popover>
+                    {#each generateImagePaths(folder) as image}
+                    <img src={`/images/${image}`} alt={folder.name} loading="lazy"/>
+                {/each}
+            </div>
+        </button>
     </li>
 {/each}
-
 
 
 <style>
