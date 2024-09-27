@@ -79,4 +79,10 @@
         object-fit: contain;
         margin-bottom: 1rem;
     }
+
+    @media (min-width: 450px) {
+        .popover img {
+            height: 100%;
+        }
+    }
 </style>
