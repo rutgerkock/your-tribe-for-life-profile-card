@@ -65,6 +65,12 @@ i {
 
 button {
     cursor: pointer;
+    color: var(--text-color);
+    color: var(--text-color);
+    font-family: jetbrains mono, monospace;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 200;
 }
 
 ul {

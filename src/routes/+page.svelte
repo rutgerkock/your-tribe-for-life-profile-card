@@ -209,7 +209,12 @@ article {
 }
 
 
-
+button {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    text-align: left;
+}
 
 @media (min-width: 450px) {
     .sprintsArticle {
