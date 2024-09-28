@@ -196,7 +196,11 @@ Resultaat: Zeer tevreden
 
 *Vrijdag*
 - Vanochtend was het mijn beurt om het mentorgroepje te helpen met hun project en te voorzien van feedback/hulp. Ik heb [Anouk](https://github.com/AnoukdeRooij24/the-client-website/issues/2), [Rapha](https://github.com/Rapha2002/the-client-website/issues/2), [Yaman](https://github.com/yamenAl/the-client-website/issues/3) en [Daan](https://github.com/dvdalfsen/the-client-website/issues/4) geholpen en heb bij ze allemaal issies ingeschoten met verbeterpunten en bronnen die ze kunnen helpen.
-- Ook heb ik ze van feedback voorzien op hun portflow, 
+- Ook heb ik ze van feedback voorzien op hun portflow, op het samenwerken van de squadpage.
+- <img width="200" alt="portflow" src="https://github.com/user-attachments/assets/4d5d8a83-655a-457b-811a-bdc8b07c3ba2">
+- <img width="200" alt="portflow" src="https://github.com/user-attachments/assets/641e87b8-0e9e-4bdb-a23d-bc602c023623">
+- <img width="200" alt="portflow" src="https://github.com/user-attachments/assets/915d7046-7b7d-4d26-a5ad-b08d2974ac3e">
+- <img width="200" alt="portflow" src="https://github.com/user-attachments/assets/91e0f311-169a-4c10-b91c-7aea7b855192">
 
 <br>
 
