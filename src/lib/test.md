@@ -192,7 +192,11 @@ Resultaat: Zeer tevreden
 
 *Donderdag*
 
+<br>
+
 *Vrijdag*
+- Vanochtend was het mijn beurt om het mentorgroepje te helpen met hun project en te voorzien van feedback/hulp. Ik heb [Anouk](https://github.com/AnoukdeRooij24/the-client-website/issues/2), [Rapha](https://github.com/Rapha2002/the-client-website/issues/2), [Yaman](https://github.com/yamenAl/the-client-website/issues/3) en [Daan](https://github.com/dvdalfsen/the-client-website/issues/4) geholpen en heb bij ze allemaal issies ingeschoten met verbeterpunten en bronnen die ze kunnen helpen.
+- Ook heb ik ze van feedback voorzien op hun portflow, 
 
 <br>
 
