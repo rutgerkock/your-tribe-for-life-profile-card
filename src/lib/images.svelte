@@ -1,7 +1,7 @@
 <script>
     
     const folders = [
-        { name: 'Zandvoort', totalImages: 22 },
+        { name: 'Zandvoort', totalImages: 21 },
         { name: 'Zugspitze', totalImages: 16 }, 
         { name: 'Wheels 2024', totalImages: 59 }, 
         { name: 'Porsche Museum', totalImages: 16 }, 
