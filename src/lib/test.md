@@ -191,16 +191,21 @@ Resultaat: Zeer tevreden
 <br>
 
 *Donderdag*
+- Vandaag ben ik bezig geweest met het weer weergeven. Dit is een deel van een van mijn taken voor de bieb-in-bloei opdracht, en heb uitgezocht hoe het werkt en op deze website toegepast. Ik heb dit gedaan met de OpenWeatherAPI, dit werkt erg goed en lukte vrij makkelijk. Nu kan ik aan de hand van bijv. de temperatuur of regenkans verschillende dingen weergeven op de website. [Zie code](https://github.com/rutgerkock/your-tribe-for-life-profile-card/blob/b0aae6a22a313a516b11040a9dfeb92eb4ca99a9/src/routes/%2Bpage.svelte#L8-L19)
 
 <br>
 
 *Vrijdag*
 - Vanochtend was het mijn beurt om het mentorgroepje te helpen met hun project en te voorzien van feedback/hulp. Ik heb [Anouk](https://github.com/AnoukdeRooij24/the-client-website/issues/2), [Rapha](https://github.com/Rapha2002/the-client-website/issues/2), [Yaman](https://github.com/yamenAl/the-client-website/issues/3) en [Daan](https://github.com/dvdalfsen/the-client-website/issues/4) geholpen en heb bij ze allemaal issies ingeschoten met verbeterpunten en bronnen die ze kunnen helpen.
 - Ook heb ik ze van feedback voorzien op hun portflow, op het samenwerken van de squadpage.
-- <img width="200" alt="portflow" src="https://github.com/user-attachments/assets/4d5d8a83-655a-457b-811a-bdc8b07c3ba2">
-- <img width="200" alt="portflow" src="https://github.com/user-attachments/assets/641e87b8-0e9e-4bdb-a23d-bc602c023623">
-- <img width="200" alt="portflow" src="https://github.com/user-attachments/assets/915d7046-7b7d-4d26-a5ad-b08d2974ac3e">
-- <img width="200" alt="portflow" src="https://github.com/user-attachments/assets/91e0f311-169a-4c10-b91c-7aea7b855192">
+
+<br>
+
+<img width="200" height="170" alt="portflow" src="https://github.com/user-attachments/assets/4d5d8a83-655a-457b-811a-bdc8b07c3ba2"><img width="200" height="170" alt="portflow" src="https://github.com/user-attachments/assets/641e87b8-0e9e-4bdb-a23d-bc602c023623"><img width="200" height="170" alt="portflow" src="https://github.com/user-attachments/assets/915d7046-7b7d-4d26-a5ad-b08d2974ac3e"><img width="200" height="170" alt="portflow" src="https://github.com/user-attachments/assets/91e0f311-169a-4c10-b91c-7aea7b855192">
+
+<br>
+
+- Vervolgens hebben we met ons bieb-in-bloei groepje feedback gekregen over de opzet van ons project, die best heel aardig was. Enige echte feedback punt was dat we bij het spelen van planning-poker echt een basislijn moeten stellen zodat we op 1 lijn zitten voor de rest van de punten. [Zie issue](https://github.com/rutgerkock/buurtcampus-oost/issues/1)
 
 <br>
 
