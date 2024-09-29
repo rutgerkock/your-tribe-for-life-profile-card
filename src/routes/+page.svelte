@@ -32,7 +32,6 @@
                     {weather.weather && weather.weather.length > 0 ? weather.weather[0].description : 'No description available'}
                 {/if}
             </p>
-            
         </div>
     </nav>
 
@@ -95,7 +94,7 @@ body {
     height: 100vh; 
     overflow-x: hidden;
     overflow-y: scroll;
-    scroll-padding-top: 5rem;
+    scroll-padding-top: 10rem;
 }
 
 section {
@@ -209,12 +208,6 @@ article {
 }
 
 
-button {
-    border: none;
-    padding: 0;
-    background-color: transparent;
-    text-align: left;
-}
 
 @media (min-width: 450px) {
     .sprintsArticle {
@@ -253,6 +246,7 @@ button {
         scroll-snap-type: y mandatory; 
         overflow-x: hidden;
         overflow-y: scroll;
+        scroll-padding-top: 5rem;
     }
 
     section {
