@@ -212,6 +212,9 @@ Resultaat: Zeer tevreden
 ### Week 2
 *Maandag*
 - Vandaag eerst hoorcollege over Svelte, dit ging over een hele hoop dingen: Structuur, routing, error handling, data laden, library en components. Het meest interessante vond ik het stuk over error.svelte pagina's en error.hmtl pagina's om custom error-pages weer te kunnen geven. Dit is iets wat ik wil doen voor mijn i-love-web website.
+
+<br>
+
 - Vervolgens hebben we de [standup](https://github.com/rutgerkock/buurtcampus-oost/discussions/2?sort=new) gedaan en heb ik nieuwe taken bedacht voor de komende dagen.
 
 <br>
