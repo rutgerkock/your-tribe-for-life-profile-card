@@ -220,8 +220,19 @@ Resultaat: Zeer tevreden
 <br>
 
 *Dinsdag*
+- Vandaag heb ik gewerkt aan de groepsopdracht, hoe ik aan de hand van het weer verschillende dingen kan weergeven. Bijv. afhankelijk van de temperatuur en de luchtvochtigheid, of het comfortabele omstindigheden zijn voor een specifieke plant. Dit is goed gelukt, nu moet ik dit alleen nog verbinden Harry, de mascotte van de website, dit zal ik ergens de komende dagen met Larissa regelen, dat is onze Harry expert. Ook moet de data nog uit Hygraph gaan komen ipv mijn mooie bestandje.
+
+<br>
 
 *Woensdag*
+- Vandaag hebben we feedback op ons design gegeven en gekregen, van de websites voor de opdrachtgevers. Ik heb 4 groepjes van feedback voorzien, zie mijn issiues/comments: [Feedback (1)](https://github.com/Daan645/lose-your-head-the-client-case/issues/10) [Feedback (2)](https://github.com/orgs/fdnd-agency/projects/41/views/1?pane=issue&itemId=81897351) [Feedback (3)](https://github.com/Remy2072/fdnd/issues/3) [Feedback (4)](https://github.com/users/Robin1224/projects/9/views/1?pane=issue&itemId=81900534)
+- Ook hebben we samen weer een stand-up gedaan. [Zie issue](https://github.com/rutgerkock/buurtcampus-oost/discussions/3)
+
+<br>
+
+- Vervolgens zijn we naar onze opdrachtgever gegaan om hier onze debriefing te bespreken, wat erg goed ging. Dit deden we bij de Buurtcampus oost op locatie. [Zie issue](https://github.com/orgs/fdnd-agency/projects/3/views/1?pane=issue&itemId=80740722)
+
+<br>
 
 *Donderdag*
 
