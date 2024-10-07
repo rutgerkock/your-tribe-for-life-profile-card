@@ -253,6 +253,8 @@ Samen met Damian heb ik dit gedaan.
 
 <br>
 
+- Ook hebben we feedback gehad van Suus en Koop, [zie issue](https://github.com/fdnd-agency/buurtcampus-oost/issues/182)
+
 - Daarna de we love web van Nicolas Garnier. Hier de samenvatting van zijn verhaal:
 - **Conclusion**
 -     Think of animations and interactions as an extension to an original intent
