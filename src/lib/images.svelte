@@ -12,7 +12,7 @@
     function generateImagePaths(folder) {
         let images = [];
         for (let i = 1; i <= folder.totalImages; i++) {
-            images.push(`${folder.name.toLowerCase().replace(/\s+/g, '')}/img${i}.jpg?enh`);
+            images.push(`${folder.name.toLowerCase().replace(/\s+/g, '')}/img${i}.jpg`);
         }
         return images;
     }
