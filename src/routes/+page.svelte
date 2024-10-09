@@ -8,48 +8,11 @@
     let city = 'Amsterdam';
     let weather;
 
-    let svgHarry = 'neutraal';
-    let harryText = '';
-    let harryFeitje = '';
-
-    let plant = 'Scindapsus';
-    let plantIdealTemp = 30;
-    let plantIdealHumidity = 80;
-
     async function getWeather() {
         const res = await fetch(
             `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=52d2a223715e49a67159446b130d4482&lang=nl&units=metric`
         );
         weather = await res.json();
-
-        const tempDiff = Math.abs(weather.main.temp - plantIdealTemp);
-        const humidityDiff = Math.abs(weather.main.humidity - plantIdealHumidity);
-
-        if (tempDiff > 8) {
-            svgHarry = weather.main.temp < plantIdealTemp ? 'koud' : 'warm';
-            harryText = svgHarry === 'koud' ? `Het is te koud voor de ${plant}!` : `Het is te warm voor de ${plant}!`;
-
-            harryFeitje = svgHarry === 'koud' ? 
-                `+ Wist je dat de ${plant} het beste groeit bij een temperatuur rond de ${plantIdealTemp} graden?` : 
-                `+ De ${plant} heeft het liever niet te warm, probeer de temperatuur onder de ${plantIdealTemp + 8} graden te houden!`;
-
-        } else if (humidityDiff > 20) {
-            svgHarry = weather.main.humidity < plantIdealHumidity ? 'droog' : 'nat';
-            harryText = svgHarry === 'droog' ? `Het is te droog voor de ${plant}!` : `Het is te nat voor de ${plant}!`;
-
-            harryFeitje = svgHarry === 'droog' ? 
-                `+ Wist je dat de ${plant} het liefst een luchtvochtigheid van rond de ${plantIdealHumidity}% heeft?` :
-                `+ De ${plant} houdt van een vochtige omgeving!`;
-
-        } else if (tempDiff < 2 && humidityDiff < 5) {
-            svgHarry = 'sombreroHarry';
-            harryText = `Het is (bijna) perfect voor de ${plant}!`;
-            harryFeitje = '';
-        } else {
-            harryText = `Het is allemaal wel best voor de ${plant}.`;
-            harryFeitje = ''; 
-        }
-    }
 
     onMount(() => {
         getWeather();
@@ -77,7 +40,6 @@
 
     <section id="top">
         <a href="https://github.com/{data.persons.github_handle}" target="_blank">github {data.persons.github_handle}</a>    
-        <p>{svgHarry} &rarr; {harryText} {harryFeitje}</p> 
     </section>
     <section>
         <h1>i-love-web<span class="dot">.</span><span class="red">blog</span></h1>
