@@ -24,10 +24,10 @@
         <i>{folder.name}</i>
         <button popovertarget={`popover-${folder.name}`} class="image_container">
             <img 
+                loading="eager" 
                 src={`/images/${generateImagePaths(folder)[0]}`} 
                 alt={folder.name} 
                 class="main_images" 
-                loading="lazy" 
                 srcset={`/images/${generateImagePaths(folder)[0]} 1x, /images/${generateImagePaths(folder)[0]} 2x`} 
                 sizes="(max-width: 600px) 100vw, (min-width: 601px) 50vw"
             />
