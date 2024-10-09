@@ -262,16 +262,21 @@ Samen met Damian heb ik dit gedaan.
 -     Ask yourself what it brings and ask for feedback
 -     Be ready to spend a lot of time on it
 
+<br>
 
 ### Week 3
 *Maandag*
 - Vandaag vroeg naar school gegaan om te werken aan Harry [Zie issue/commits](https://github.com/fdnd-agency/buurtcampus-oost/issues/124)
 - Vervolgens college van Justus over Project methodiek.
 - Daarna weer verder met harry, erg tevreden met het eindresultaat voor vandaag, een dynamische Harry die soms verschijnt, met een uitstraling afhankelijk van het weer.
-- <img width="200" height="170" alt="portflow" src="https://github.com/user-attachments/assets/e80b3d09-7b80-4065-bff7-1bf50733abf2">
+- <img width="180" height="auto" alt="portflow" src="https://github.com/user-attachments/assets/e80b3d09-7b80-4065-bff7-1bf50733abf2">
+
+<br>
 
 *Dinsdag*
 - Wat kleine dingen rondom haryr gefixt: Quotes, home-page/detail-page text en opmaak span-element
+
+<br>
 
 *Woensdag*
 
