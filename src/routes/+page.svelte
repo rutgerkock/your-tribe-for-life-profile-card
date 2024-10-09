@@ -13,11 +13,10 @@
             `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=52d2a223715e49a67159446b130d4482&lang=nl&units=metric`
         );
         weather = await res.json();
-
+    }
     onMount(() => {
         getWeather();
     });
-
 </script>
 
 <body>
