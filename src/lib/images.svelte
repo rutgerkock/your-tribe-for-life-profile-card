@@ -35,13 +35,13 @@
         <button popovertarget={`popover-${folder.name}`} title="Close">
             <div id={`popover-${folder.name}`} class="popover" popover>
                 {#each generateImagePaths(folder) as image}
-                    <img src={`/images/${image}`} alt={folder.name} loading="lazy"/>
+                <img src={`/images/${image}`} alt={folder.name} loading="lazy" width="300" height="200" />
                 {/each}
             </div>
         </button>
     </li>
 {/each}
-
+    
 
 <style>
     li {
