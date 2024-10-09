@@ -271,7 +271,7 @@ Samen met Damian heb ik dit gedaan.
 - <img width="200" height="170" alt="portflow" src="https://github.com/user-attachments/assets/e80b3d09-7b80-4065-bff7-1bf50733abf2">
 
 *Dinsdag*
-- Wat kleine dingen rondom haryr gefixt: Quotes, home-page/detail-page text en opmaak ```<span>```.
+- Wat kleine dingen rondom haryr gefixt: Quotes, home-page/detail-page text en opmaak span-element
 
 *Woensdag*
 
