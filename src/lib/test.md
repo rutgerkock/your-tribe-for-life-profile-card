@@ -279,10 +279,24 @@ Samen met Damian heb ik dit gedaan.
 <br>
 
 *Woensdag*
+- Vandaag hebben we het eerst gehad over hoe we de sprint-review in moeten gaan. Hoe we dingen moeten afronden en hoe we een sprint-review netjes moeten doen en documenteren. Dat hebben we als groepje gedocumenteerd [Zie issue](https://github.com/fdnd-agency/buurtcampus-oost/issues/189)
+- Vervolgens hebben we samen met het mediahuis elkaar van feedback voorzien, [Zie feedback op Harry](https://github.com/fdnd-agency/buurtcampus-oost/issues/192)
+- Ook hebben we de laatste dingen voor de sprint-review rondom Harry afgemaakt zodat we hem konden demonstreren.
+
+<br>
 
 *Donderdag*
+- Vandaag 's ochtends laatste dingen voor de sprint-review gefixt. De [website](https://buurtcampus-oost-8lzm-git-main-rutgers-projects-27384392.vercel.app/) live gezet! En de feature-branch van Harry en de OpenWeatherAPI gemerged met de main aan de hand van een [pull-request](https://github.com/rutgerkock/buurtcampus-oost/pull/7).
+- Vervolgens hadden we de sprint-review met het volledige bieb-in-bloei groepje, jaar 1 en 2! We hebben hier allemaal ons werk laten zien volgens de [planning](https://github.com/fdnd-agency/buurtcampus-oost/issues/189) die we hadden gemaakt. Mariska (De opdrachtgever) was super enthousiast over wat we haddden gemaakt, en ze had niks aan te merken op onze ideeen voor komende sprint, en was vooral heel benieuwd naar het resultaat.
+  
+<br>
 
 *Vrijdag*
+- Vandaag was het weer mentor-dag, samen met mijn groepje hebben we aan de hand van de DLC alles wat ze afgelopen sprint hebben geleerd/gedaan gekoppeld aan een of meerdere fases.
+- <img width="200" height="auto" alt="portflow" src="https://github.com/user-attachments/assets/6b03430a-8741-4fbb-8bb1-ec411f62fead)">
+
+
+
 <br>
 <br>
 
