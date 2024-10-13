@@ -302,7 +302,7 @@ Samen met Damian heb ik dit gedaan.
 
 *Vrijdag*
 - Vandaag was het weer mentor-dag, samen met mijn groepje hebben we aan de hand van de DLC alles wat ze afgelopen sprint hebben geleerd/gedaan gekoppeld aan een of meerdere fases.
-- <img width="200" height="auto" alt="portflow" src="https://github.com/user-attachments/assets/6b03430a-8741-4fbb-8bb1-ec411f62fead">
+- <img width="200" height="auto" alt="portflow" src="https://github.com/user-attachments/assets/3043f5ab-fdc0-4b15-9b1b-d66f3b6d2350">
 
 <br>
 
