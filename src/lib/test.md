@@ -295,6 +295,9 @@ Samen met Damian heb ik dit gedaan.
 - Vandaag was het weer mentor-dag, samen met mijn groepje hebben we aan de hand van de DLC alles wat ze afgelopen sprint hebben geleerd/gedaan gekoppeld aan een of meerdere fases.
 - <img width="200" height="auto" alt="portflow" src="https://github.com/user-attachments/assets/6b03430a-8741-4fbb-8bb1-ec411f62fead">
 
+<br>
+
+- Vervolgens was het tijd voor onze kampvuursessie, waar we het als team hebben gehad over de samenwerking. [Zie Github-discussie](https://github.com/fdnd-agency/buurtcampus-oost/issues/189#issuecomment-2406905342)
 
 
 <br>
