@@ -242,13 +242,22 @@ Resultaat: Zeer tevreden
 *Vrijdag*
 - Vanochtend begonnen als mentor. Ik heb samen met Damian de css-layout-challange besproken in een groepje. We hebben bij de meeste layouts feedback kunnen geven.
 - <img width="200" height="170" alt="portflow" src="https://github.com/user-attachments/assets/40b35a1f-45d2-4626-a478-2b367acba38c">
-- #1 ipv grid-area: 2/1/3/2 -> nav main main | #2 Kan zonder css of met flex gemakkelijker -> zie https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction | #3 Let goed op welk element waar moet -> kan ook gewoon met nav main main, niet oneindige grid column starts/ends op elk element. | #5 Zet de elementen met een grid-column-start neer -> blanco kan ook  ". header header header"  -> grid-column-start netter, blancos kunnen ook meer onnodig ingewikkeld. | #7 gebruik postion: absolute (Met absolute zet je iets op een vaste plek binnen een blok, met fixed op de pagina. Gebruik geen percentages om de positie te geven. https://developer.mozilla.org/en-US/docs/Web/CSS/position | #8 sticky vs fixed -> fixed hier beter -> z-index om dingen over elkaar weer te geven -> centreren niet met margins! | #9 buttons met flex rest kan via grid op hoop manieren
+- #1 ipv grid-area: 2/1/3/2 -> nav main main
+- #2 Kan zonder css of met flex gemakkelijker -> zie [mdn/css/flex-direction](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction)
+- #3 Let goed op welk element waar moet -> kan ook gewoon met nav main main, niet oneindige grid column starts/ends op elk element.
+- #5 Zet de elementen met een grid-column-start neer -> blanco kan ook  ". header header header"  -> grid-column-start netter, blancos kunnen ook meer onnodig ingewikkeld.
+- #7 gebruik postion: absolute (Met absolute zet je iets op een vaste plek binnen een blok, met fixed op de pagina. Gebruik geen percentages om de positie te geven. [mdn/css/position](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
+- #8 sticky vs fixed -> fixed hier beter -> z-index om dingen over elkaar weer te geven -> centreren niet met margins!
+- #9 buttons met flex rest kan via grid op hoop manieren
+- Advanced #1 Kan met flex alleen als je weet hoeveel blokken je hebt, anders masonry layout of multi-column-layout [mdn/css/multicol-layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_multicol_layout), multi column beste.
 
-- Advanced #1 Kan met flex alleen als je weet hoeveel blokken je hebt, anders masonry layout of multi-column-layout https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_multicol_layout, multi column beste.
+<br>
+
 - We hebben een hoop algemene tips kunnen geven met voorbeelden uit onze eigen code en mdn. Denk bijv. Aan sticky titels enz. 
 Samen met Damian heb ik dit gedaan.
 
 <br>
+
 - Vervolgens heb ik Kate geholpen met haar project, the-client-case. Hier heb ik een hele hoop feedback op kunnen geven, [zie issues](https://github.com/Kitkatisvibing/the-client-website/issues/1)
 
 <br>
