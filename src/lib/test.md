@@ -315,19 +315,32 @@ Samen met Damian heb ik dit gedaan.
 ## Sprint 15
 ### Week 1
 *Maandag*
+- Vandaag onderzoek gedaan naar mijn tech-stack voor komende sprint. Dit is [enhance](https://enhance.dev/) geworden. Enhance trok mij vooral aan omdat het framework bekend staat om zijn snelheid en javascript optioneel is!  
 
 *Dinsdag*
+- Docs van enhance gelezen.
 
 *Woensdag*
+- 's Ochtends enhance project opgezet en routes aangemaakt. Dit ging niet bijzonder moeizaam
+- Vervolgens kwam Kevin van Directus langs voor een gastcollege, dit was erg uitgebreid
+- Toen kwam Shyanta van Triple langs, dit was korter en interessanter. 
 
 *Donderdag*
+- Een portfolio project opgezet, en ben begonnen met desigs maken. [Zie Figma](https://www.figma.com/design/IbNQBs7pkOqkQwLt6Fvdro/portfolio?node-id=0-1&node-type=canvas&t=vbQXWbVAYGdXa2xi-0)
 
 *Vrijdag*
+- Verhaal van Dion Pieters, over portfolio's voornamelijk, was best leuk om te horen.
+- Code review met Justus, tip over JS switch, makkelijker dan eeuwige else/if/if-else
 
 ### Week 2
 *Maandag*
+- Verder gewerkt aan portfolio designs in de ochtend. [Zie Figma](https://www.figma.com/design/IbNQBs7pkOqkQwLt6Fvdro/portfolio?node-id=0-1&node-type=canvas&t=vbQXWbVAYGdXa2xi-0)
+- Workshop Visualthink en Teamlead
+- Gewerkt aan de opdracht: schets je ontwikkeling s3
 
 *Dinsdag*
+- Gewerkt aan de choices-choices-tech-stack-opdracht.
+- Portfolio design in code gezet om tot de conclusie gekomen dat het saai is dus opnieuw begonnen met designs.
 
 *Woensdag*
 
